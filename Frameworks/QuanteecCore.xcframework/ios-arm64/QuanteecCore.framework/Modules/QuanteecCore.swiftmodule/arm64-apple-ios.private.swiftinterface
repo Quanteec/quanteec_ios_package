@@ -1,0 +1,592 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name QuanteecCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import QuanteecCore
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import datachannel_wrapper
+public class QualityMetrics : Swift.Codable {
+  public var SD: Swift.Int64
+  public var HD: Swift.Int64
+  public var FullHD: Swift.Int64
+  public var K2: Swift.Int64
+  public var K4: Swift.Int64
+  public var K8: Swift.Int64
+  public var audio: Swift.Int64
+  public init()
+  public func reset()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class InitMetrics : Swift.Codable {
+  public init()
+  public func reset()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class PlayerMetrics : Swift.Codable {
+  public init()
+  public func updateManifest(dataSize: Swift.Int64)
+  public func updateMedia(dataSize: Swift.Int64, isHttp: Swift.Bool, segmentInfo: QuanteecCore.SegmentInfo, peerType: QuanteecCore.PeerType)
+  public func updatep2pSegmentStartDelay(milliseconds: Swift.Double, peerType: QuanteecCore.PeerType)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class VideoStorageManager {
+  public static let shared: QuanteecCore.VideoStorageManager
+  public func removeAll()
+  @objc deinit
+}
+@objc public class ProxyManager : ObjectiveC.NSObject {
+  public init(videoID: Swift.String, clientID: Swift.String, analyticsManager: QuanteecCore.AnalyticsManager)
+  public func reverseProxyURL(url: Foundation.URL) -> Foundation.URL?
+  public func startServer()
+  public func cleanup()
+  @objc deinit
+}
+public enum NetworkType {
+  case wifi, cellular, unknown
+  public static func == (a: QuanteecCore.NetworkType, b: QuanteecCore.NetworkType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NetworkTypeChecker {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ManifestManager {
+  public static let shared: QuanteecCore.ManifestManager
+  public func cleanup()
+  public func getResolutions() -> [Swift.String]
+  @objc deinit
+}
+public enum DeviceType {
+  case iPhone
+  case iPad
+  case tvOS
+  case unknown
+  public static func == (a: QuanteecCore.DeviceType, b: QuanteecCore.DeviceType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class DeviceTypeChecker {
+  public static func currentDeviceType() -> QuanteecCore.DeviceType
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class QuanteecConfig {
+  public static var shared: QuanteecCore.QuanteecConfig {
+    get
+  }
+  public var quanteecKey: Swift.String
+  public var videoID: Swift.String
+  public var analyticsVideoID: Swift.String
+  public var activated: Swift.Bool
+  public var p2pActivated: Swift.Bool
+  public var currentLevel: Swift.Int?
+  public var maxPreloadedSegments: Swift.Int
+  public var maxUploadPercent: Swift.Double
+  public var tracker: Swift.String
+  public var checkUrls: Swift.Bool
+  public var ignoreTokenInUrls: Swift.String
+  public var sendingActivated: Swift.Bool
+  public var cellularActivated: Swift.Bool
+  public var logLevel: Swift.Int
+  public var lowLatency: Swift.Bool
+  public static func configure(quanteecKey: Swift.String)
+  @objc deinit
+}
+public class BaseTag : QuanteecCore.Tag {
+  public class var tag: Swift.String {
+    get
+  }
+  final public let text: Swift.String
+  final public let tagDataText: Swift.String
+  final public let tagType: any QuanteecCore.Tag.Type
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public protocol StringInitializable {
+  init?(_ string: Swift.String)
+}
+extension Swift.Int : QuanteecCore.StringInitializable {
+}
+extension Swift.Double : QuanteecCore.StringInitializable {
+}
+public class BaseValueTag<T> : QuanteecCore.Tag where T : QuanteecCore.StringInitializable {
+  public class var tag: Swift.String {
+    get
+  }
+  final public let text: Swift.String
+  final public let tagDataText: Swift.String
+  final public let tagType: any QuanteecCore.Tag.Type
+  final public let value: T
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public class BaseAttributedTag : QuanteecCore.AttributedTag {
+  public class var tag: Swift.String {
+    get
+  }
+  final public let text: Swift.String
+  final public let tagDataText: Swift.String
+  final public let tagType: any QuanteecCore.Tag.Type
+  final public let attributes: [Swift.String : Swift.String]
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public protocol PlaylistFetcher : AnyObject {
+  func fetchPlaylist(from url: Foundation.URL, timeoutInterval: Foundation.TimeInterval) -> QuanteecCore.Result<Swift.String>
+  func fetchPlaylist(from url: Foundation.URL, timeoutInterval: Foundation.TimeInterval, completionHandler: @escaping (QuanteecCore.Result<Swift.String>) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class DefaultPlaylistFetcher : QuanteecCore.PlaylistFetcher {
+  public func fetchPlaylist(from url: Foundation.URL, timeoutInterval: Foundation.TimeInterval = 60) -> QuanteecCore.Result<Swift.String>
+  public func fetchPlaylist(from url: Foundation.URL, timeoutInterval: Foundation.TimeInterval, completionHandler: @escaping (QuanteecCore.Result<Swift.String>) -> Swift.Void)
+  @objc deinit
+}
+public protocol PlaylistLine {
+  var text: Swift.String { get }
+  init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+}
+public protocol Tag : QuanteecCore.PlaylistLine {
+  static var tag: Swift.String { get }
+  var tagDataText: Swift.String { get }
+  var tagType: any QuanteecCore.Tag.Type { get }
+  func toText(replacingTagValueWith newValue: Swift.String) -> Swift.String
+}
+extension QuanteecCore.Tag {
+  public func toText(replacingTagValueWith newValue: Swift.String) -> Swift.String
+}
+public protocol AttributedTag : QuanteecCore.Tag {
+  var attributes: [Swift.String : Swift.String] { get }
+}
+public protocol MultilineTag {
+  static func linesCount(for text: Swift.String) -> Swift.Int
+}
+@_hasMissingDesignatedInitializers public class QLoggerConfig {
+  public static let shared: QuanteecCore.QLoggerConfig
+  public var activeLogLevel: QuanteecCore.QLogLevel
+  @objc deinit
+}
+public enum QLogLevel : Swift.Int, Swift.Comparable {
+  case none
+  case error
+  case info
+  case debug
+  case trace
+  public static func < (lhs: QuanteecCore.QLogLevel, rhs: QuanteecCore.QLogLevel) -> Swift.Bool
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class QuanteecLogger : ObjectiveC.NSObject {
+  public static func log(_ message: Swift.String, module: QuanteecCore.QLogModule, level: QuanteecCore.QLogLevel, type: Swift.String)
+  public static func error(_ message: Swift.String, module: QuanteecCore.QLogModule)
+  public static func info(_ message: Swift.String, module: QuanteecCore.QLogModule)
+  public static func debug(_ message: Swift.String, module: QuanteecCore.QLogModule)
+  public static func trace(_ message: Swift.String, module: QuanteecCore.QLogModule)
+  @objc public static func traceGCD(_ message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol AnalyticsManagerProtocol : AnyObject {
+  func getPrebufferingDuration() -> Foundation.TimeInterval
+  func getLatency() -> Swift.Double
+}
+@objc @_inheritsConvenienceInitializers public class AnalyticsManager : ObjectiveC.NSObject {
+  weak public var delegate: (any QuanteecCore.AnalyticsManagerProtocol)?
+  @objc override dynamic public init()
+  @objc deinit
+  public func trackBuffering()
+  public func calculateTotalBufferingTime()
+  public func cleanup()
+  public func setStreamType(type: Swift.String)
+  @objc public func handleBuffering()
+  public func getEnergySavedInCO2g() -> Swift.Double
+  public func getEnergySavedInLight() -> Swift.Double
+  public func getEnergySavedInWatercL() -> Swift.Double
+  public func getEnergySavedInWh() -> Swift.Double
+  public func getEnergySavedReceivedInWh() -> Swift.Double
+  public func getEnergySavedSentInWh() -> Swift.Double
+  public func getGreenScore() -> Swift.Double
+  public func getDataCDN() -> Swift.Int64
+  public func getDataPeer() -> Swift.Int64
+  public func getDataSent() -> Swift.Int64
+  public func getP2PPercent() -> Swift.Double
+}
+public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
+  case videoStatus
+  case analytics
+  case proxy
+  case candidate
+  case webRTCClient
+  case parallelRequestCounter
+  case hlsManifestModifier
+  case downloadController
+  case signalClient
+  case peerSelectionService
+  case peerList
+  case peerMessagesController
+  case manifestParser
+  case videoStorage
+  case p2pUpload
+  case loopDetection
+  case peerScore
+  case peerConnectionController
+  case playlistFetcher
+  case gcdwebserver
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [QuanteecCore.QLogModule]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [QuanteecCore.QLogModule] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class PlaylistOperation : Foundation.Operation {
+  public struct Params {
+    public let fetcher: any QuanteecCore.PlaylistFetcher
+    public let url: Foundation.URL
+    public let playlistType: QuanteecCore.PlaylistType
+    public init(fetcher: (any QuanteecCore.PlaylistFetcher)? = nil, url: Foundation.URL, playlistType: QuanteecCore.PlaylistType)
+  }
+  public struct ExtraParams {
+    public let parser: QuanteecCore.M3U8Parser.ExtraParams?
+    public init(parser: QuanteecCore.M3U8Parser.ExtraParams? = nil)
+  }
+  public init(params: QuanteecCore.PlaylistOperation.Params, extraParams: QuanteecCore.PlaylistOperation.ExtraParams? = nil)
+  @objc override dynamic public func main()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXTM3U : QuanteecCore.BaseTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_INDEPENDENT_SEGMENTS : QuanteecCore.BaseTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_TARGETDURATION : QuanteecCore.BaseValueTag<Swift.Int> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_VERSION : QuanteecCore.BaseValueTag<Swift.Int> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_MEDIA_SEQUENCE : QuanteecCore.BaseValueTag<Swift.Int> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public enum PlaylistTagType : Swift.String, QuanteecCore.StringInitializable {
+  case vod, event
+  public init?(_ string: Swift.String)
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class EXT_X_PLAYLIST_TYPE : QuanteecCore.BaseValueTag<QuanteecCore.PlaylistTagType> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
+  case yes, no
+  public init?(_ string: Swift.String)
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class EXT_X_ALLOW_CACHE : QuanteecCore.BaseValueTag<QuanteecCore.BoolTagType> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_BITRATE : QuanteecCore.BaseValueTag<Swift.Int> {
+  override public class var tag: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXTINF : QuanteecCore.BaseValueTag<Swift.Double>, QuanteecCore.MultilineTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  final public let title: Swift.String?
+  final public let uri: Swift.String
+  final public let bitrate: QuanteecCore.EXT_X_BITRATE?
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  public static func linesCount(for text: Swift.String) -> Swift.Int
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_KEY : QuanteecCore.BaseAttributedTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  public var method: Swift.String {
+    get
+  }
+  public var uri: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_STREAM_INF : QuanteecCore.BaseAttributedTag, QuanteecCore.MultilineTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  final public let uri: Swift.String
+  public var bandwidth: Swift.Int {
+    get
+  }
+  public var resolution: Swift.String {
+    get
+  }
+  public var audio: Swift.String? {
+    get
+  }
+  public var programId: Swift.Int? {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  public static func linesCount(for text: Swift.String) -> Swift.Int
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class EXT_X_MEDIA : QuanteecCore.BaseAttributedTag {
+  override public class var tag: Swift.String {
+    get
+  }
+  public enum MediaType : Swift.String {
+    case audio, video, subtitles, closedCaptions, invalid
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var mediaType: QuanteecCore.EXT_X_MEDIA.MediaType {
+    get
+  }
+  public var groupId: Swift.String {
+    get
+  }
+  public var language: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var uri: Swift.String {
+    get
+  }
+  required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  @objc deinit
+}
+public protocol Playlist {
+  var originalText: Swift.String { get }
+  var alteredText: Swift.String? { get }
+  var type: QuanteecCore.PlaylistType { get }
+  var baseUrl: Foundation.URL { get }
+  var extraTags: [Swift.String : [any QuanteecCore.Tag]] { get }
+}
+public enum PlaylistType : Swift.String {
+  case master
+  case video
+  case audio
+  case subtitles
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class M3U8Parser {
+  public init()
+  public struct Params {
+    public init(playlist: Swift.String, playlistType: QuanteecCore.PlaylistType, baseUrl: Foundation.URL)
+  }
+  public struct ExtraParams {
+    public init(customRequiredTags: [any QuanteecCore.Tag.Type]? = nil, extraTypes: [any QuanteecCore.Tag.Type]? = nil, linePostProcessHandler: (([Swift.String]) -> [Swift.String])? = nil)
+  }
+  public var isCancelled: Swift.Bool
+  public func parse(params: QuanteecCore.M3U8Parser.Params, extraParams: QuanteecCore.M3U8Parser.ExtraParams? = nil) throws -> QuanteecCore.M3U8Parser.ParserResult
+  public func cancel()
+  @objc deinit
+}
+extension QuanteecCore.M3U8Parser {
+  public enum Error : Foundation.LocalizedError {
+    case malformedPlaylist
+    public var errorDescription: Swift.String? {
+      get
+    }
+    public static func == (a: QuanteecCore.M3U8Parser.Error, b: QuanteecCore.M3U8Parser.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum ParserResult {
+    case master(QuanteecCore.MasterPlaylist)
+    case media(QuanteecCore.MediaPlaylist)
+    case cancelled
+  }
+}
+public struct MediaPlaylist : QuanteecCore.Playlist {
+  public let originalText: Swift.String
+  public let alteredText: Swift.String?
+  public let type: QuanteecCore.PlaylistType
+  public let baseUrl: Foundation.URL
+  public let tags: QuanteecCore.MediaPlaylistTags
+  public let extraTags: [Swift.String : [any QuanteecCore.Tag]]
+}
+public struct MediaPlaylistTags {
+  public let targetDurationTag: QuanteecCore.EXT_X_TARGETDURATION
+  public let allowCacheTag: QuanteecCore.EXT_X_ALLOW_CACHE?
+  public let playlistTypeTag: QuanteecCore.EXT_X_PLAYLIST_TYPE?
+  public let versionTag: QuanteecCore.EXT_X_VERSION?
+  public let mediaSequence: QuanteecCore.EXT_X_MEDIA_SEQUENCE?
+  public let mediaSegments: [QuanteecCore.EXTINF]
+  public let keySegments: [QuanteecCore.EXT_X_KEY]
+}
+@_hasMissingDesignatedInitializers public class MediaPlaylistTagsBuilder {
+  @objc deinit
+}
+public enum Result<Value> {
+  case success(Value)
+  case failure((any Swift.Error)?)
+}
+public class M3U8Manager {
+  public init()
+  public enum Result<Value> {
+    case success(Value)
+    case failure((any Swift.Error)?)
+    case cancelled
+  }
+  public struct PlaylistOperationData {
+    public let params: QuanteecCore.PlaylistOperation.Params
+    public let extraParams: QuanteecCore.PlaylistOperation.ExtraParams?
+    public init(params: QuanteecCore.PlaylistOperation.Params, extraParams: QuanteecCore.PlaylistOperation.ExtraParams? = nil)
+  }
+  public enum Error : Foundation.LocalizedError {
+    case emptyResult
+    case invalidType
+    public var errorDescription: Swift.String? {
+      get
+    }
+    public static func == (a: QuanteecCore.M3U8Manager.Error, b: QuanteecCore.M3U8Manager.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func fetchAndParsePlaylist<T>(from operationData: QuanteecCore.M3U8Manager.PlaylistOperationData, playlistType: T.Type, operationHandler: ((QuanteecCore.PlaylistOperation) -> Swift.Void)? = nil, completionHandler: @escaping (QuanteecCore.M3U8Manager.Result<T>) -> Swift.Void) where T : QuanteecCore.Playlist
+  public func fetchAndParseMediaPlaylists(from operationDataList: [QuanteecCore.M3U8Manager.PlaylistOperationData], operationsHandler: (([QuanteecCore.PlaylistOperation]) -> Swift.Void)? = nil, completionHandler: @escaping (QuanteecCore.M3U8Manager.Result<[QuanteecCore.MediaPlaylist]>) -> Swift.Void)
+  public func cancel()
+  @objc deinit
+}
+public struct MasterPlaylist : QuanteecCore.Playlist {
+  public let originalText: Swift.String
+  public let alteredText: Swift.String?
+  public let type: QuanteecCore.PlaylistType
+  public let baseUrl: Foundation.URL
+  public let tags: QuanteecCore.MasterPlaylistTags
+  public let extraTags: [Swift.String : [any QuanteecCore.Tag]]
+}
+public struct MasterPlaylistTags {
+  public let versionTag: QuanteecCore.EXT_X_VERSION?
+  public let mediaTags: [QuanteecCore.EXT_X_MEDIA]
+  public let streamTags: [QuanteecCore.EXT_X_STREAM_INF]
+}
+public enum PeerType : Swift.String {
+  case ip, city, region, country, unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PeerListManager {
+  public static let shared: QuanteecCore.PeerListManager
+  public func removeAll()
+  public func connectedPeerCount() -> Swift.Int
+  @objc deinit
+}
+public struct SegmentInfo {
+}
+public enum SegmentType : Swift.String {
+  case video, audio, unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension QuanteecCore.NetworkType : Swift.Equatable {}
+extension QuanteecCore.NetworkType : Swift.Hashable {}
+extension QuanteecCore.DeviceType : Swift.Equatable {}
+extension QuanteecCore.DeviceType : Swift.Hashable {}
+extension QuanteecCore.QLogLevel : Swift.Hashable {}
+extension QuanteecCore.QLogLevel : Swift.RawRepresentable {}
+extension QuanteecCore.QLogModule : Swift.RawRepresentable {}
+extension QuanteecCore.PlaylistTagType : Swift.Equatable {}
+extension QuanteecCore.PlaylistTagType : Swift.Hashable {}
+extension QuanteecCore.PlaylistTagType : Swift.RawRepresentable {}
+extension QuanteecCore.BoolTagType : Swift.Equatable {}
+extension QuanteecCore.BoolTagType : Swift.Hashable {}
+extension QuanteecCore.BoolTagType : Swift.RawRepresentable {}
+extension QuanteecCore.EXT_X_MEDIA.MediaType : Swift.Equatable {}
+extension QuanteecCore.EXT_X_MEDIA.MediaType : Swift.Hashable {}
+extension QuanteecCore.EXT_X_MEDIA.MediaType : Swift.RawRepresentable {}
+extension QuanteecCore.PlaylistType : Swift.Equatable {}
+extension QuanteecCore.PlaylistType : Swift.Hashable {}
+extension QuanteecCore.PlaylistType : Swift.RawRepresentable {}
+extension QuanteecCore.M3U8Parser.Error : Swift.Equatable {}
+extension QuanteecCore.M3U8Parser.Error : Swift.Hashable {}
+extension QuanteecCore.M3U8Manager.Error : Swift.Equatable {}
+extension QuanteecCore.M3U8Manager.Error : Swift.Hashable {}
+extension QuanteecCore.PeerType : Swift.Equatable {}
+extension QuanteecCore.PeerType : Swift.Hashable {}
+extension QuanteecCore.PeerType : Swift.RawRepresentable {}
+extension QuanteecCore.SegmentType : Swift.Equatable {}
+extension QuanteecCore.SegmentType : Swift.Hashable {}
+extension QuanteecCore.SegmentType : Swift.RawRepresentable {}

@@ -1,0 +1,6 @@
+framework module QuanteecPluginAVPlayer {
+  umbrella header "QuanteecPluginAVPlayer.h"
+  export *
+
+  module * { export * }
+}

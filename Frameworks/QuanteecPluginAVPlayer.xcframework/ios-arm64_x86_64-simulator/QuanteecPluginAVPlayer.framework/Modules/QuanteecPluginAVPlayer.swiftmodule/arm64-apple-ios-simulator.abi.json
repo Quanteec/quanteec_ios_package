@@ -1,0 +1,1032 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QuanteecPluginAVPlayer",
+    "printedName": "QuanteecPluginAVPlayer",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuanteecPluginAVPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "QuanteecPluginAVPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "QuanteecCore",
+        "printedName": "QuanteecCore",
+        "declKind": "Import",
+        "moduleName": "QuanteecPluginAVPlayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuanteecPluginAVPlayer",
+        "printedName": "QuanteecPluginAVPlayer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayer",
+                "printedName": "AVFoundation.AVPlayer",
+                "usr": "c:objc(cs)AVPlayer"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22QuanteecPluginAVPlayerAAC6playerSo0C0Cvp",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerSo0C0Cvp",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayer",
+                    "printedName": "AVFoundation.AVPlayer",
+                    "usr": "c:objc(cs)AVPlayer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuanteecPluginAVPlayerAAC6playerSo0C0Cvg",
+                "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerSo0C0Cvg",
+                "moduleName": "QuanteecPluginAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientID",
+            "printedName": "clientID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22QuanteecPluginAVPlayerAAC8clientIDSSvp",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC8clientIDSSvp",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuanteecPluginAVPlayerAAC8clientIDSSvg",
+                "mangledName": "$s22QuanteecPluginAVPlayerAAC8clientIDSSvg",
+                "moduleName": "QuanteecPluginAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoID",
+            "printedName": "videoID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22QuanteecPluginAVPlayerAAC7videoIDSSvp",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC7videoIDSSvp",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22QuanteecPluginAVPlayerAAC7videoIDSSvg",
+                "mangledName": "$s22QuanteecPluginAVPlayerAAC7videoIDSSvg",
+                "moduleName": "QuanteecPluginAVPlayer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(player:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuanteecPluginAVPlayer",
+                "printedName": "QuanteecPluginAVPlayer.QuanteecPluginAVPlayer",
+                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayer",
+                "printedName": "AVFoundation.AVPlayer",
+                "usr": "c:objc(cs)AVPlayer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22QuanteecPluginAVPlayerAAC6playerABSo0C0C_tcfc",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerABSo0C0C_tcfc",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "changeCurrentLevel",
+            "printedName": "changeCurrentLevel(currentLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC18changeCurrentLevel07currentF0ySi_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC18changeCurrentLevel07currentF0ySi_tF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanup",
+            "printedName": "cleanup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC7cleanupyyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC7cleanupyyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getResolutions",
+            "printedName": "getResolutions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC14getResolutionsSaySSGyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC14getResolutionsSaySSGyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateP2P",
+            "printedName": "activateP2P(activated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC11activateP2P9activatedySb_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC11activateP2P9activatedySb_tF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateQuanteec",
+            "printedName": "activateQuanteec(activated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC08activateA09activatedySb_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC08activateA09activatedySb_tF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMaxUploadPercent",
+            "printedName": "setMaxUploadPercent(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC19setMaxUploadPercent5valueySd_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC19setMaxUploadPercent5valueySd_tF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedInCO2g",
+            "printedName": "getEnergySavedInCO2g()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC20getEnergySavedInCO2gSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC20getEnergySavedInCO2gSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedInLight",
+            "printedName": "getEnergySavedInLight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC21getEnergySavedInLightSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC21getEnergySavedInLightSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedInWatercL",
+            "printedName": "getEnergySavedInWatercL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC23getEnergySavedInWatercLSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC23getEnergySavedInWatercLSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedInWh",
+            "printedName": "getEnergySavedInWh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC18getEnergySavedInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC18getEnergySavedInWhSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedReceivedInWh",
+            "printedName": "getEnergySavedReceivedInWh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC26getEnergySavedReceivedInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC26getEnergySavedReceivedInWhSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEnergySavedSentInWh",
+            "printedName": "getEnergySavedSentInWh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC22getEnergySavedSentInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC22getEnergySavedSentInWhSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGreenScore",
+            "printedName": "getGreenScore()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC13getGreenScoreSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC13getGreenScoreSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDataCDN",
+            "printedName": "getDataCDN()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC10getDataCDNs5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC10getDataCDNs5Int64VyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDataPeer",
+            "printedName": "getDataPeer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC11getDataPeers5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC11getDataPeers5Int64VyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDataSent",
+            "printedName": "getDataSent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC11getDataSents5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC11getDataSents5Int64VyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getP2PPercent",
+            "printedName": "getP2PPercent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC13getP2PPercentSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC13getP2PPercentSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPeerConnected",
+            "printedName": "getPeerConnected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC16getPeerConnectedSiyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC16getPeerConnectedSiyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuanteecPluginAVPlayer",
+                "printedName": "QuanteecPluginAVPlayer.QuanteecPluginAVPlayer",
+                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer(im)init",
+            "mangledName": "$s22QuanteecPluginAVPlayerAACABycfc",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getPrebufferingDuration",
+            "printedName": "getPrebufferingDuration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC23getPrebufferingDurationSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC23getPrebufferingDurationSdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLatency",
+            "printedName": "getLatency()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayerAAC10getLatencySdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayerAAC10getLatencySdyF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer",
+        "mangledName": "$s22QuanteecPluginAVPlayerAAC",
+        "moduleName": "QuanteecPluginAVPlayer",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnalyticsManagerProtocol",
+            "printedName": "AnalyticsManagerProtocol",
+            "usr": "s:12QuanteecCore24AnalyticsManagerProtocolP",
+            "mangledName": "$s12QuanteecCore24AnalyticsManagerProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVPlayer",
+        "printedName": "AVPlayer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "getPrebufferingDuration",
+            "printedName": "getPrebufferingDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvp",
+            "mangledName": "$sSo8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvp",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvg",
+                "mangledName": "$sSo8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvg",
+                "moduleName": "QuanteecPluginAVPlayer",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVPlayer",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVPlayer",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

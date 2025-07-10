@@ -15,15 +15,18 @@ let package = Package(
             targets: ["quanteec_plugin_package"])
     ],
     dependencies: [
-        // Define dependencies if needed
-        .package(url: "https://github.com/yene/GCDWebServer.git", exact: "3.5.7")
+        // No external dependencies
         ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
-                    name: "QuanteecPlugin",
-                    path: "Frameworks/QuanteecPlugin.xcframework"
+                    name: "QuanteecCore",
+                    path: "Frameworks/QuanteecCore.xcframework"
+                ),
+        .binaryTarget(
+                    name: "QuanteecPluginAVPlayer",
+                    path: "Frameworks/QuanteecPluginAVPlayer.xcframework"
                 ),
         .binaryTarget(
                     name: "datachannel_wrapper",
@@ -32,8 +35,8 @@ let package = Package(
         .target(
             name: "quanteec_plugin_package",
             dependencies: [
-                "GCDWebServer",
-                "QuanteecPlugin",
+                "QuanteecCore",
+                "QuanteecPluginAVPlayer",
                 "datachannel_wrapper"
             ]
         ),

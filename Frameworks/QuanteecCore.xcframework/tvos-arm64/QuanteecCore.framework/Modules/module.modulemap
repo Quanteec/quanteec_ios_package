@@ -1,0 +1,11 @@
+framework module QuanteecCore {
+  umbrella header "QuanteecCore.h"
+  export *
+
+  module * { export * }
+}
+
+module QuanteecCore.Swift {
+  header "QuanteecCore-Swift.h"
+  requires objc
+}
