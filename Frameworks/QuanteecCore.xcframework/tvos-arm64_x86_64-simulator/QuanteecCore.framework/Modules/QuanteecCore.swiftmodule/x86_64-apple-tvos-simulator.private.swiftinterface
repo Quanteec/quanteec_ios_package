@@ -104,6 +104,8 @@ public enum DeviceType {
   public var cellularActivated: Swift.Bool
   public var logLevel: Swift.Int
   public var lowLatency: Swift.Bool
+  public var p2pConfiguration: Swift.String?
+  public var collections: [Swift.String]
   public static func configure(quanteecKey: Swift.String)
   @objc deinit
 }
