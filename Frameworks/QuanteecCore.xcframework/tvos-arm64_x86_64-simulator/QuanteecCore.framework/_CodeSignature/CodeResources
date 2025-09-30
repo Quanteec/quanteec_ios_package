@@ -58,15 +58,15 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		luoOw/aZs5qlShs5QVW7P7ZkdsQ=
+		4hVuyuVgdHrp72bg9yxCsFH7Oh0=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		MMtnex+Mf3jEY84LLpNLpA8waKg=
+		DVqoPfM1vMvCmCqnaLTzQRMTHgY=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		veEDXuZt8vzEOdWy3mEDPn1n0u8=
+		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		veEDXuZt8vzEOdWy3mEDPn1n0u8=
+		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -199,21 +199,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3JKVTaawdEuT/2raH2e1dt/QsvQZFKTiSW6TmJsW4o=
+			X+dBjteIx87/xOZNEkoNZBwXRaOU8+YbISLtB+Gixlo=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+DA3wd1/OsuFCDXG7sZWCarwS2CaRbc6RHHg+j0eLo=
+			9zBoctmfqzF1gNjZNo1ZaWI8spKYB3lCfBeAUSoKA/c=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUtfwVxmTw1Axvj/a0GRs5J6As/SjiIukClTiYokacs=
+			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUtfwVxmTw1Axvj/a0GRs5J6As/SjiIukClTiYokacs=
+			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
