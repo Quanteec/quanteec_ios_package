@@ -10,39 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/Pltw880hjrpUUTdS0A6zOMv54E=
-		</data>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
-		<data>
-		PcmskTVgkP/m58W7zhJ05Rj+DGk=
-		</data>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
-		<data>
-		yUxAljH3vislxeC2kSz//GeFsCY=
+		jVYpZBkAqTdYj9X9vHYg9jKKWHU=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		S+q7lCib7p2ejA/gx4c+GWKK+C8=
+		Ot7Cy+iuIXkb2JOjg+4ZCOX0LXo=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
+		<data>
+		pbKkOSDzvsJT7tri06P6iGfVcCY=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		PzY4H1Hl+0FbUsTqU7vIqUdY5v4=
+		K5ZNFiQktqmUL1BkaGtXHYKeBdw=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		pbKkOSDzvsJT7tri06P6iGfVcCY=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		T2O/JYYmygqMIAuv+sVPTUwVHRU=
+		KxbZJHQWQmZMhQV66cBStSB8CuI=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		S+q7lCib7p2ejA/gx4c+GWKK+C8=
+		Ot7Cy+iuIXkb2JOjg+4ZCOX0LXo=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<data>
+		Me6p0Ftcz8eKGlrDHk97NeQIZ2o=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		HCuzAI2jtIlY88bM56/etT74bRs=
+		jSEAglwfNKtgI+JD9It8ovjenTg=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		Me6p0Ftcz8eKGlrDHk97NeQIZ2o=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		vh4Q330AJkUKcNR3TVdzU/kxftA=
+		PCtDrdi8RXGl+SmTjWlj7iOMqy8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,60 +66,74 @@
 			ZtcBIPFQIjCp7ZvYN5T4ruyo9GdPfBjXL9HZ4jGJpyg=
 			</data>
 		</dict>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RFACNKOc+RVPU6540rT1iDSIOhLmRhv8v5o2JVh67Rk=
-			</data>
-		</dict>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vlQl2qkQ4rIHAREAMIQGkZZcl4+H5szxGM2U2K7G7n8=
-			</data>
-		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwxzjhfHMmqNrJjwVF2Vq4EhydXACrghg4oA+4PSKkw=
+			ijLp5EahGksOC4ZW0aj4Mid5ttwR8FjKyoRfsmfXaqM=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ZpbikX2DSXZuIoNWVDhw2gc9Iqkhta5yN1q4Fl90jE=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			adEmMeg86OkZf516cWpsjLr+YmmrV8kg7sstAiJkl3g=
+			bInUzdC1D9yVYbk3L0TK4+goARwmPpDdEsQHkW7SUDw=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ZpbikX2DSXZuIoNWVDhw2gc9Iqkhta5yN1q4Fl90jE=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YMzGKLxPHKcGybmHDrFPlMEzNiHWe4XEsEYTpawJqWw=
+			79mcYUIT06aEfZAtHMDNBRNAfIBsfl92BKUZJDCecBc=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwxzjhfHMmqNrJjwVF2Vq4EhydXACrghg4oA+4PSKkw=
+			ijLp5EahGksOC4ZW0aj4Mid5ttwR8FjKyoRfsmfXaqM=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2CXycFY+vRXPNpcr5Z44hlmuhdyBGPv3udu4cfgyuSA=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wpiK6Vp+qXv37QNRor/JF4IgtQGob1WbWK2Yc3eMewg=
+			DwlkTkDLRZYT8TlhIpU3e4JusNFZQ6UUxBpW92fBA5k=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2CXycFY+vRXPNpcr5Z44hlmuhdyBGPv3udu4cfgyuSA=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VA607JbqNYM2CFrLmGF8DUGBIwIPF4ALgLf95oYB7k8=
+			5RDWDsLNWRjfEqdBlUOGDGuKn6ZizzBjUPMN/EhpOJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

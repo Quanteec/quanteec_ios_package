@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/datachannel_wrapper.framework/datachannel_wrapper</key>
 		<data>
-		6O8PPKhPZIvkpQRqqt0h44tC04s=
+		AncgJV+miAGoqbhFVOTB0BKeetg=
 		</data>
 		<key>Headers/GCDWebServer.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/QuanteecCore-Swift.h</key>
 		<data>
-		GG6dtLCjXszpddZRFFVfGp6hdLo=
+		tAvqtmrU6pPhWVp/nk9mnq+gi58=
 		</data>
 		<key>Headers/QuanteecCore.h</key>
 		<data>
@@ -54,55 +54,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qGOPzXrUufT4XhXM/69AzV8c1Yk=
-		</data>
-		<key>Modules/QuanteecCore.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
-		<data>
-		4hVuyuVgdHrp72bg9yxCsFH7Oh0=
-		</data>
-		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
-		<data>
-		DVqoPfM1vMvCmCqnaLTzQRMTHgY=
+		5xJCbZPGtF0usW9nL8NBorBDv00=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
+		RGJSLZkhKCpbN4wId/VG+qVnHkU=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		jBbJVSlsHgK85/pKLh8c9ZYx66w=
+		bHsiSQyHo0y8lG7LaSJDvunEWXQ=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		ctE39mk4sIMZbtDxYXg/m/LvrLg=
+		akEqDvl8Hbga0Pkmlyfs74KKKRk=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		jBbJVSlsHgK85/pKLh8c9ZYx66w=
+		bHsiSQyHo0y8lG7LaSJDvunEWXQ=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		43Y5KKXVocNxrxPw3S3+RR3bPo8=
+		tfBi67YhxLC5NKHwtJlLr3DxG/o=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
+		RGJSLZkhKCpbN4wId/VG+qVnHkU=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		45DSwTiwKH3M7nemYjbaouWixyo=
+		N5vWso6Dd8yf5/HrQM3LnLR+gMI=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		11KPCaWdxMLvihmuv77THFaoVxQ=
+		E6srd6bTr5PIe3UgdCXq8sNLJ+E=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		45DSwTiwKH3M7nemYjbaouWixyo=
+		N5vWso6Dd8yf5/HrQM3LnLR+gMI=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		xeYRkMH+Lub53QtPcI2nAChLsYM=
+		7e1rCDY4wbfiI0dyQcRBghiTh94=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wdxAUrc6A8rk0mymG16pYpL6gqlcbuWL/bJ90Rx9ew=
+			Hh9NqBaXGl6iD6EL53T4DutmPPC6TlKpibmvW1QWWAY=
 			</data>
 		</dict>
 		<key>Headers/GCDWebServer.h</key>
@@ -185,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			db6kgp7tf4foSQ0b4PBq6uVJYlDgBGeSH9RYvshxmU8=
+			4eMfiDrOh5MPwwNgYQynfAZixptcCK23mxxnXYs51BE=
 			</data>
 		</dict>
 		<key>Headers/QuanteecCore.h</key>
@@ -195,88 +187,74 @@
 			xfVc64hStvFWpS/NOnK//9c68MnBdT9LCee1XHDpC0Q=
 			</data>
 		</dict>
-		<key>Modules/QuanteecCore.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X+dBjteIx87/xOZNEkoNZBwXRaOU8+YbISLtB+Gixlo=
-			</data>
-		</dict>
-		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9zBoctmfqzF1gNjZNo1ZaWI8spKYB3lCfBeAUSoKA/c=
-			</data>
-		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
+			82hhB2QXQXL5/FxKv131oxvylSFOSWSa2o0mBKm1gEU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2kYv+Lo7Fi9/W4ThmRJUqnMEIdDUwl2IP9Nto/FXbtI=
+			2Ymt+RDHvO3ecsEif67NXSHSZHnuD57NfeeMp53ve8Q=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W9K3rMqjoJM3r1ATnNC151BeTMqtCv+rlWr4HpemABY=
+			wGwWRdOVpP1W8oBUxlX2WpN8B60bMobcMjhpPTO/iNU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2kYv+Lo7Fi9/W4ThmRJUqnMEIdDUwl2IP9Nto/FXbtI=
+			2Ymt+RDHvO3ecsEif67NXSHSZHnuD57NfeeMp53ve8Q=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQ/rcn6ZQsYuQGK+L7qF4rVlRx8kBQK6fx5NUbVlrDM=
+			m5Py54xpCfanzPllchnS6TxdZa+enK7muCnV2TQimjo=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
+			82hhB2QXQXL5/FxKv131oxvylSFOSWSa2o0mBKm1gEU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PO+YzXXZ7Mx0v2JhJv/nofEjwUwKzdIMQ2q0p7gzbk0=
+			IVFkWXJfK1Ff2tAmsjgY72eke+YYsfKmrX3Zvn4SopQ=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWuamW9ZcOOiQ+0ISgZespYESGo4RrWiq4RCn0nkd48=
+			voRFpP3+ik6Hb8ejsRNL0AQOQ4Fajolnbd+8oMJgWrk=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PO+YzXXZ7Mx0v2JhJv/nofEjwUwKzdIMQ2q0p7gzbk0=
+			IVFkWXJfK1Ff2tAmsjgY72eke+YYsfKmrX3Zvn4SopQ=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GCmVoPSgwysidClbG6lSjiE+AEw7cDXc0QO2X9YnkfM=
+			oi/BJBH6lWVVuz2vUvF9sSL9BTIORgq0OOrbgPSW8F4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

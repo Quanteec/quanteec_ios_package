@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name QuanteecCore
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name QuanteecCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Foundation
 @_exported import QuanteecCore
 import Swift
@@ -48,7 +48,9 @@ public class PlayerMetrics : Swift.Codable {
 }
 @objc public class ProxyManager : ObjectiveC.NSObject {
   public init(videoID: Swift.String, clientID: Swift.String, analyticsManager: QuanteecCore.AnalyticsManager)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func reverseProxyURL(url: Foundation.URL) -> Foundation.URL?
+  #endif
   public func startServer()
   public func cleanup()
   @objc deinit
@@ -116,11 +118,15 @@ public class BaseTag : QuanteecCore.Tag {
   final public let text: Swift.String
   final public let tagDataText: Swift.String
   final public let tagType: any QuanteecCore.Tag.Type
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public protocol StringInitializable {
+  #if compiler(>=5.3) && $NonescapableTypes
   init?(_ string: Swift.String)
+  #endif
 }
 extension Swift.Int : QuanteecCore.StringInitializable {
 }
@@ -134,7 +140,9 @@ public class BaseValueTag<T> : QuanteecCore.Tag where T : QuanteecCore.StringIni
   final public let tagDataText: Swift.String
   final public let tagType: any QuanteecCore.Tag.Type
   final public let value: T
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public class BaseAttributedTag : QuanteecCore.AttributedTag {
@@ -145,7 +153,9 @@ public class BaseAttributedTag : QuanteecCore.AttributedTag {
   final public let tagDataText: Swift.String
   final public let tagType: any QuanteecCore.Tag.Type
   final public let attributes: [Swift.String : Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public protocol PlaylistFetcher : AnyObject {
@@ -159,7 +169,9 @@ public protocol PlaylistFetcher : AnyObject {
 }
 public protocol PlaylistLine {
   var text: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
 }
 public protocol Tag : QuanteecCore.PlaylistLine {
   static var tag: Swift.String { get }
@@ -188,7 +200,9 @@ public enum QLogLevel : Swift.Int, Swift.Comparable {
   case debug
   case trace
   public static func < (lhs: QuanteecCore.QLogLevel, rhs: QuanteecCore.QLogLevel) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -250,7 +264,9 @@ public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
   case peerConnectionController
   case playlistFetcher
   case gcdwebserver
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [QuanteecCore.QLogModule]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [QuanteecCore.QLogModule] {
@@ -265,13 +281,19 @@ public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
     public let fetcher: any QuanteecCore.PlaylistFetcher
     public let url: Foundation.URL
     public let playlistType: QuanteecCore.PlaylistType
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(fetcher: (any QuanteecCore.PlaylistFetcher)? = nil, url: Foundation.URL, playlistType: QuanteecCore.PlaylistType)
+    #endif
   }
   public struct ExtraParams {
     public let parser: QuanteecCore.M3U8Parser.ExtraParams?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(parser: QuanteecCore.M3U8Parser.ExtraParams? = nil)
+    #endif
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(params: QuanteecCore.PlaylistOperation.Params, extraParams: QuanteecCore.PlaylistOperation.ExtraParams? = nil)
+  #endif
   @objc override dynamic public func main()
   @objc deinit
 }
@@ -279,41 +301,55 @@ public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_INDEPENDENT_SEGMENTS : QuanteecCore.BaseTag {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_TARGETDURATION : QuanteecCore.BaseValueTag<Swift.Int> {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_VERSION : QuanteecCore.BaseValueTag<Swift.Int> {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_MEDIA_SEQUENCE : QuanteecCore.BaseValueTag<Swift.Int> {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public enum PlaylistTagType : Swift.String, QuanteecCore.StringInitializable {
   case vod, event
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(_ string: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -323,13 +359,19 @@ public enum PlaylistTagType : Swift.String, QuanteecCore.StringInitializable {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   case yes, no
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(_ string: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -339,14 +381,18 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_BITRATE : QuanteecCore.BaseValueTag<Swift.Int> {
   override public class var tag: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXTINF : QuanteecCore.BaseValueTag<Swift.Double>, QuanteecCore.MultilineTag {
@@ -356,7 +402,9 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   final public let title: Swift.String?
   final public let uri: Swift.String
   final public let bitrate: QuanteecCore.EXT_X_BITRATE?
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   public static func linesCount(for text: Swift.String) -> Swift.Int
   @objc deinit
 }
@@ -370,7 +418,9 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   public var uri: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class EXT_X_STREAM_INF : QuanteecCore.BaseAttributedTag, QuanteecCore.MultilineTag {
@@ -384,13 +434,19 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   public var resolution: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var audio: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var programId: Swift.Int? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   public static func linesCount(for text: Swift.String) -> Swift.Int
   @objc deinit
 }
@@ -400,7 +456,9 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   }
   public enum MediaType : Swift.String {
     case audio, video, subtitles, closedCaptions, invalid
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -421,12 +479,16 @@ public enum BoolTagType : Swift.String, QuanteecCore.StringInitializable {
   public var uri: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(text: Swift.String, tagType: any QuanteecCore.Tag.Type, extraParams: [Swift.String : Any]?) throws
+  #endif
   @objc deinit
 }
 public protocol Playlist {
   var originalText: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var alteredText: Swift.String? { get }
+  #endif
   var type: QuanteecCore.PlaylistType { get }
   var baseUrl: Foundation.URL { get }
   var extraTags: [Swift.String : [any QuanteecCore.Tag]] { get }
@@ -436,7 +498,9 @@ public enum PlaylistType : Swift.String {
   case video
   case audio
   case subtitles
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -448,19 +512,25 @@ public class M3U8Parser {
     public init(playlist: Swift.String, playlistType: QuanteecCore.PlaylistType, baseUrl: Foundation.URL)
   }
   public struct ExtraParams {
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(customRequiredTags: [any QuanteecCore.Tag.Type]? = nil, extraTypes: [any QuanteecCore.Tag.Type]? = nil, linePostProcessHandler: (([Swift.String]) -> [Swift.String])? = nil)
+    #endif
   }
   public var isCancelled: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parse(params: QuanteecCore.M3U8Parser.Params, extraParams: QuanteecCore.M3U8Parser.ExtraParams? = nil) throws -> QuanteecCore.M3U8Parser.ParserResult
+  #endif
   public func cancel()
   @objc deinit
 }
 extension QuanteecCore.M3U8Parser {
   public enum Error : Foundation.LocalizedError {
     case malformedPlaylist
+    #if compiler(>=5.3) && $NonescapableTypes
     public var errorDescription: Swift.String? {
       get
     }
+    #endif
     public static func == (a: QuanteecCore.M3U8Parser.Error, b: QuanteecCore.M3U8Parser.Error) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -507,22 +577,30 @@ public class M3U8Manager {
   public struct PlaylistOperationData {
     public let params: QuanteecCore.PlaylistOperation.Params
     public let extraParams: QuanteecCore.PlaylistOperation.ExtraParams?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(params: QuanteecCore.PlaylistOperation.Params, extraParams: QuanteecCore.PlaylistOperation.ExtraParams? = nil)
+    #endif
   }
   public enum Error : Foundation.LocalizedError {
     case emptyResult
     case invalidType
+    #if compiler(>=5.3) && $NonescapableTypes
     public var errorDescription: Swift.String? {
       get
     }
+    #endif
     public static func == (a: QuanteecCore.M3U8Manager.Error, b: QuanteecCore.M3U8Manager.Error) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchAndParsePlaylist<T>(from operationData: QuanteecCore.M3U8Manager.PlaylistOperationData, playlistType: T.Type, operationHandler: ((QuanteecCore.PlaylistOperation) -> Swift.Void)? = nil, completionHandler: @escaping (QuanteecCore.M3U8Manager.Result<T>) -> Swift.Void) where T : QuanteecCore.Playlist
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchAndParseMediaPlaylists(from operationDataList: [QuanteecCore.M3U8Manager.PlaylistOperationData], operationsHandler: (([QuanteecCore.PlaylistOperation]) -> Swift.Void)? = nil, completionHandler: @escaping (QuanteecCore.M3U8Manager.Result<[QuanteecCore.MediaPlaylist]>) -> Swift.Void)
+  #endif
   public func cancel()
   @objc deinit
 }
@@ -541,7 +619,9 @@ public struct MasterPlaylistTags {
 }
 public enum PeerType : Swift.String {
   case ip, city, region, country, unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -557,7 +637,9 @@ public struct SegmentInfo {
 }
 public enum SegmentType : Swift.String {
   case video, audio, unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get

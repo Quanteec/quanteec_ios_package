@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-tvos26.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name QuanteecPluginAVPlayer
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+import Foundation
+import QuanteecCore
+@_exported import QuanteecPluginAVPlayer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class QuanteecPlugin : ObjectiveC.NSObject {
+  public init(player: AVFoundation.AVPlayer)
+  @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
+  public func cleanup()
+  public func getResolutions() -> [Swift.String]
+  public func activateP2P(activated: Swift.Bool)
+  public func activateQuanteec(activated: Swift.Bool)
+  public func setMaxUploadPercent(value: Swift.Double)
+  public func getEnergySavedInCO2g() -> Swift.Double
+  public func getEnergySavedInLight() -> Swift.Double
+  public func getEnergySavedInWatercL() -> Swift.Double
+  public func getEnergySavedInWh() -> Swift.Double
+  public func getEnergySavedReceivedInWh() -> Swift.Double
+  public func getEnergySavedSentInWh() -> Swift.Double
+  public func getGreenScore() -> Swift.Double
+  public func getDataCDN() -> Swift.Int64
+  public func getDataPeer() -> Swift.Int64
+  public func getDataSent() -> Swift.Int64
+  public func getP2PPercent() -> Swift.Double
+  public func getPeerConnected() -> Swift.Int
+}
+extension QuanteecPluginAVPlayer.QuanteecPlugin : QuanteecCore.AnalyticsManagerProtocol {
+  public func getPrebufferingDuration() -> Foundation.TimeInterval
+  public func getLatency() -> Swift.Double
+}

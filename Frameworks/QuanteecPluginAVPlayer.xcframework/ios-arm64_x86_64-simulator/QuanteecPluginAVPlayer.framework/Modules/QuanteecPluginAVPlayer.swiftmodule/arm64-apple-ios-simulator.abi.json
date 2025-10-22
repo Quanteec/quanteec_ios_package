@@ -30,150 +30,9 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QuanteecPluginAVPlayer",
-        "printedName": "QuanteecPluginAVPlayer",
+        "name": "QuanteecPlugin",
+        "printedName": "QuanteecPlugin",
         "children": [
-          {
-            "kind": "Var",
-            "name": "player",
-            "printedName": "player",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AVPlayer",
-                "printedName": "AVFoundation.AVPlayer",
-                "usr": "c:objc(cs)AVPlayer"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22QuanteecPluginAVPlayerAAC6playerSo0C0Cvp",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerSo0C0Cvp",
-            "moduleName": "QuanteecPluginAVPlayer",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVPlayer",
-                    "printedName": "AVFoundation.AVPlayer",
-                    "usr": "c:objc(cs)AVPlayer"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22QuanteecPluginAVPlayerAAC6playerSo0C0Cvg",
-                "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerSo0C0Cvg",
-                "moduleName": "QuanteecPluginAVPlayer",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "clientID",
-            "printedName": "clientID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22QuanteecPluginAVPlayerAAC8clientIDSSvp",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC8clientIDSSvp",
-            "moduleName": "QuanteecPluginAVPlayer",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22QuanteecPluginAVPlayerAAC8clientIDSSvg",
-                "mangledName": "$s22QuanteecPluginAVPlayerAAC8clientIDSSvg",
-                "moduleName": "QuanteecPluginAVPlayer",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "videoID",
-            "printedName": "videoID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22QuanteecPluginAVPlayerAAC7videoIDSSvp",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC7videoIDSSvp",
-            "moduleName": "QuanteecPluginAVPlayer",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22QuanteecPluginAVPlayerAAC7videoIDSSvg",
-                "mangledName": "$s22QuanteecPluginAVPlayerAAC7videoIDSSvg",
-                "moduleName": "QuanteecPluginAVPlayer",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -181,9 +40,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuanteecPluginAVPlayer",
-                "printedName": "QuanteecPluginAVPlayer.QuanteecPluginAVPlayer",
-                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer"
+                "name": "QuanteecPlugin",
+                "printedName": "QuanteecPluginAVPlayer.QuanteecPlugin",
+                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPlugin"
               },
               {
                 "kind": "TypeNominal",
@@ -193,37 +52,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22QuanteecPluginAVPlayerAAC6playerABSo0C0C_tcfc",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC6playerABSo0C0C_tcfc",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C6playerACSo0C0C_tcfc",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C6playerACSo0C0C_tcfc",
             "moduleName": "QuanteecPluginAVPlayer",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "changeCurrentLevel",
-            "printedName": "changeCurrentLevel(currentLevel:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC18changeCurrentLevel07currentF0ySi_tF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC18changeCurrentLevel07currentF0ySi_tF",
-            "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -305,11 +140,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer(im)observeValueForKeyPath:ofObject:change:context:",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
+            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPlugin(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
             "moduleName": "QuanteecPluginAVPlayer",
             "overriding": true,
-            "isOpen": true,
             "objc_name": "observeValueForKeyPath:ofObject:change:context:",
             "declAttributes": [
               "Dynamic",
@@ -331,10 +165,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC7cleanupyyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC7cleanupyyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C7cleanupyyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C7cleanupyyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -361,10 +194,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC14getResolutionsSaySSGyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC14getResolutionsSaySSGyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C14getResolutionsSaySSGyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C14getResolutionsSaySSGyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -388,10 +220,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC11activateP2P9activatedySb_tF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC11activateP2P9activatedySb_tF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C11activateP2P9activatedySb_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C11activateP2P9activatedySb_tF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -416,10 +247,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC08activateA09activatedySb_tF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC08activateA09activatedySb_tF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C08activateA09activatedySb_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C08activateA09activatedySb_tF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -444,10 +274,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC19setMaxUploadPercent5valueySd_tF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC19setMaxUploadPercent5valueySd_tF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C19setMaxUploadPercent5valueySd_tF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C19setMaxUploadPercent5valueySd_tF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -467,10 +296,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC20getEnergySavedInCO2gSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC20getEnergySavedInCO2gSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C20getEnergySavedInCO2gSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C20getEnergySavedInCO2gSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -490,10 +318,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC21getEnergySavedInLightSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC21getEnergySavedInLightSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C21getEnergySavedInLightSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C21getEnergySavedInLightSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -513,10 +340,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC23getEnergySavedInWatercLSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC23getEnergySavedInWatercLSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C23getEnergySavedInWatercLSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C23getEnergySavedInWatercLSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -536,10 +362,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC18getEnergySavedInWhSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC18getEnergySavedInWhSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C18getEnergySavedInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C18getEnergySavedInWhSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -559,10 +384,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC26getEnergySavedReceivedInWhSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC26getEnergySavedReceivedInWhSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C26getEnergySavedReceivedInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C26getEnergySavedReceivedInWhSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -582,10 +406,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC22getEnergySavedSentInWhSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC22getEnergySavedSentInWhSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C22getEnergySavedSentInWhSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C22getEnergySavedSentInWhSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -605,10 +428,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC13getGreenScoreSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC13getGreenScoreSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C13getGreenScoreSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C13getGreenScoreSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -628,10 +450,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC10getDataCDNs5Int64VyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC10getDataCDNs5Int64VyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C10getDataCDNs5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C10getDataCDNs5Int64VyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -651,10 +472,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC11getDataPeers5Int64VyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC11getDataPeers5Int64VyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C11getDataPeers5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C11getDataPeers5Int64VyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -674,10 +494,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC11getDataSents5Int64VyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC11getDataSents5Int64VyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C11getDataSents5Int64VyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C11getDataSents5Int64VyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -697,10 +516,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC13getP2PPercentSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC13getP2PPercentSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C13getP2PPercentSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C13getP2PPercentSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -720,10 +538,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC16getPeerConnectedSiyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC16getPeerConnectedSiyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C16getPeerConnectedSiyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C16getPeerConnectedSiyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -737,14 +554,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuanteecPluginAVPlayer",
-                "printedName": "QuanteecPluginAVPlayer.QuanteecPluginAVPlayer",
-                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer"
+                "name": "QuanteecPlugin",
+                "printedName": "QuanteecPluginAVPlayer.QuanteecPlugin",
+                "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer(im)init",
-            "mangledName": "$s22QuanteecPluginAVPlayerAACABycfc",
+            "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPlugin(im)init",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0CACycfc",
             "moduleName": "QuanteecPluginAVPlayer",
             "overriding": true,
             "implicit": true,
@@ -769,10 +586,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC23getPrebufferingDurationSdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC23getPrebufferingDurationSdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C23getPrebufferingDurationSdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C23getPrebufferingDurationSdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -792,10 +608,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:22QuanteecPluginAVPlayerAAC10getLatencySdyF",
-            "mangledName": "$s22QuanteecPluginAVPlayerAAC10getLatencySdyF",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C10getLatencySdyF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C10getLatencySdyF",
             "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -804,10 +619,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPluginAVPlayer",
-        "mangledName": "$s22QuanteecPluginAVPlayerAAC",
+        "usr": "c:@M@QuanteecPluginAVPlayer@objc(cs)QuanteecPlugin",
+        "mangledName": "$s22QuanteecPluginAVPlayer0aB0C",
         "moduleName": "QuanteecPluginAVPlayer",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -886,142 +700,6 @@
             "printedName": "AnalyticsManagerProtocol",
             "usr": "s:12QuanteecCore24AnalyticsManagerProtocolP",
             "mangledName": "$s12QuanteecCore24AnalyticsManagerProtocolP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AVPlayer",
-        "printedName": "AVPlayer",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "getPrebufferingDuration",
-            "printedName": "getPrebufferingDuration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvp",
-            "mangledName": "$sSo8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvp",
-            "moduleName": "QuanteecPluginAVPlayer",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvg",
-                "mangledName": "$sSo8AVPlayerC014QuanteecPluginA0E23getPrebufferingDurationSdvg",
-                "moduleName": "QuanteecPluginAVPlayer",
-                "isOpen": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)AVPlayer",
-        "moduleName": "AVFoundation",
-        "isOpen": true,
-        "intro_iOS": "4.0",
-        "objc_name": "AVPlayer",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }

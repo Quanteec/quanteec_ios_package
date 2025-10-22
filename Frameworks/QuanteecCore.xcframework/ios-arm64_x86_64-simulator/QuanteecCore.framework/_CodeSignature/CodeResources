@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/datachannel_wrapper.framework/datachannel_wrapper</key>
 		<data>
-		w8S3pADQize2JYANhdrQ8DU5Rl4=
+		hUP2ZmymNMakTtjlhuiQvWJG8rA=
 		</data>
 		<key>Headers/GCDWebServer.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/QuanteecCore-Swift.h</key>
 		<data>
-		GG6dtLCjXszpddZRFFVfGp6hdLo=
+		tAvqtmrU6pPhWVp/nk9mnq+gi58=
 		</data>
 		<key>Headers/QuanteecCore.h</key>
 		<data>
@@ -54,55 +54,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x0p1b73Qc0JvWcHzaId1vbunnE0=
-		</data>
-		<key>Modules/QuanteecCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		ImyyajR47rEZ0FHuWEejgcJwSWU=
-		</data>
-		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		bs8FaM+QmWN5/mKqkbyWYrpWoBI=
+		QqB6FcO7MFPXc/fc03MXWXP3cIg=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
+		RGJSLZkhKCpbN4wId/VG+qVnHkU=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JqtnvvQkcmvY27/2hRCNFh2w2fU=
+		gLI36g9lozgIz7cfa/BxeyYhLqc=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ThyhCiQ75nQvlLloMzXxEwA2O48=
+		df4ah0Co/14nxXl1/tb4sNOG4Cg=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JqtnvvQkcmvY27/2hRCNFh2w2fU=
+		gLI36g9lozgIz7cfa/BxeyYhLqc=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ckFyyUkSlQcXjTIUiJf5ZdnhjRw=
+		eI2bUaaqtxGNkQBXFQY9UffCc3E=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/KlI8aUBxFNaf/Jb31Y6DIKzxmk=
+		RGJSLZkhKCpbN4wId/VG+qVnHkU=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jS+V7ok9ydUIGK5RjihPPZ/u5FQ=
+		c1PnAaeOP2ieBEFHjuvPS+Xzwn0=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RgHU8yPnBI3j3lYJwhYGe82y0Z0=
+		6M0BKQ5Gf5YaY5kfkCGvkGpT94M=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jS+V7ok9ydUIGK5RjihPPZ/u5FQ=
+		c1PnAaeOP2ieBEFHjuvPS+Xzwn0=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FPZ4xnNJzOLzXiqdk3BAsT/QOpo=
+		O7M+C0TLMUfmeKYTOoK1wWhZ9Do=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+D6hevl5szuq9nG4ldpUIdcsGYCZ9wAEcWcn6EpR4nY=
+			nerHeTGuZLEEHmCJHA0K4nH+IXZcx74bZ7scQ8Y5SVs=
 			</data>
 		</dict>
 		<key>Headers/GCDWebServer.h</key>
@@ -185,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			db6kgp7tf4foSQ0b4PBq6uVJYlDgBGeSH9RYvshxmU8=
+			4eMfiDrOh5MPwwNgYQynfAZixptcCK23mxxnXYs51BE=
 			</data>
 		</dict>
 		<key>Headers/QuanteecCore.h</key>
@@ -195,88 +187,74 @@
 			xfVc64hStvFWpS/NOnK//9c68MnBdT9LCee1XHDpC0Q=
 			</data>
 		</dict>
-		<key>Modules/QuanteecCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gzwdcm+vvlvjKAMWgEJcjxFi7hoGtjgnxBQgR+OUzZ4=
-			</data>
-		</dict>
-		<key>Modules/QuanteecCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4kg0s3hvmXPOI0qjC1V63wjDHqIzj1lGbG9EyGbVe/c=
-			</data>
-		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
+			82hhB2QXQXL5/FxKv131oxvylSFOSWSa2o0mBKm1gEU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyI41BGXh90sPrqJKRIaLQUGNiJozi2/PU3jljyyXq0=
+			vQvcoZHoifLA7+iW42qI/fMchf5W9N8coCoXQDzI2ss=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JqNBUyzpFW0JuvGWESJE9hri/lesU38g2iNhFpXBMJQ=
+			Y25J+8rOtqDQQGCg7QdpwQXBMTmUb34SWBJ3ssCZvYc=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyI41BGXh90sPrqJKRIaLQUGNiJozi2/PU3jljyyXq0=
+			vQvcoZHoifLA7+iW42qI/fMchf5W9N8coCoXQDzI2ss=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sRP/c/TmEnS2T8CylTPC5Y3xnZRJZ1OLWtfTjSN7fnQ=
+			EY+ChMAIgc4RiTVyT9++rY9VScajZ+mVFlPbPXJmP7g=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTworihI0c+ZMZ9LtAYi2NFDuc+Wg4YTsqse02wMqpg=
+			82hhB2QXQXL5/FxKv131oxvylSFOSWSa2o0mBKm1gEU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1kLcFN1RAKA/DUeaY2C32AYYDcLq1eMITcRBcWAP8E=
+			GV6h9Y+vGoi549piDRdac8BcoQQ4idYMru6CRSnrv7Q=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pXYzrOwAaIg67TC/f50VN21Tdp+jgZt9yftmUV+2SjI=
+			ijjKUwNCuiQB9652OYM4WysE2YgivcwIHzMZsbnzOkk=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1kLcFN1RAKA/DUeaY2C32AYYDcLq1eMITcRBcWAP8E=
+			GV6h9Y+vGoi549piDRdac8BcoQQ4idYMru6CRSnrv7Q=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KfV2P1mOckUicjnXUvrmRWpMxaBiiOGp88IjF7FutkA=
+			Rnf7C/fEw2jz/nvwG4CtGJzyIfgBsjEtbQ72rbk6/3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

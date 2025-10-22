@@ -10,39 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E/CIywc2J0V4JZE7/oiQ+d6vTNE=
-		</data>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		RNAggQZezF5nKDWg8d+rEBySvLE=
-		</data>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		1JrlBOAk9pqgdUHk/JZeQjW3MGU=
+		Pi+iQ1ZNNWLVxK1LJfJHnXMBmEw=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LQj6HDlQ+VN6mA9Q8Ah74EZiPgs=
+		Ot7Cy+iuIXkb2JOjg+4ZCOX0LXo=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Iza9WFo/Nv/p4eCUAtCgQGGLqYQ=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zmBbtVTZqVILmcwU/FuTaLkCm2E=
+		h9V++6tBYKuAZ0/pfPpn2xjOaYg=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Iza9WFo/Nv/p4eCUAtCgQGGLqYQ=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ghvszqP+Vq+EGB4XTq8b8m+fOII=
+		1iuYjcfMI/AZ8Y+e2SQdruWOg04=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LQj6HDlQ+VN6mA9Q8Ah74EZiPgs=
+		Ot7Cy+iuIXkb2JOjg+4ZCOX0LXo=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		wyUogAtIMSIMhUps3zA2bNC3Yn0=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4LYVM3/I/rPtrZT+WusV4ac0cIc=
+		jJcJSOQA86lcGuSTU2DTff7Iztc=
+		</data>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		wyUogAtIMSIMhUps3zA2bNC3Yn0=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Wy6e1ym9vO64c0dm88VO42AGvEs=
+		Ke+pEttcudgRkv31rYVob2cZ5wU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,60 +66,74 @@
 			ZtcBIPFQIjCp7ZvYN5T4ruyo9GdPfBjXL9HZ4jGJpyg=
 			</data>
 		</dict>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1uRF3btiYtIk5o/uZhVJDUrZ+4DpDAvUkpldsHp31B0=
-			</data>
-		</dict>
-		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/QSSNCdXf1KIN57YraiFtf2ZZm0fqDIZcRH60N4UXFw=
-			</data>
-		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JOvHJTPnmXLJC6FwBU591I0CxtEIjmuQfxL4/k3O5h8=
+			ijLp5EahGksOC4ZW0aj4Mid5ttwR8FjKyoRfsmfXaqM=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DadJVP4NjkdJfRylYhKn/NcVDlPGPJPMwR8FHYN4xas=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yf3f6UF8mbWYK8+k38DFY8el/iRXiscj4jjONOM0NzY=
+			SdRLkK6XgHXc8gOv+uB1R16GVfNTQvWMGjtx2bJZy68=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DadJVP4NjkdJfRylYhKn/NcVDlPGPJPMwR8FHYN4xas=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9t+Z3vMUqWcQZ+Fpa4KYaXTUX4MzR1zLEdz0hgcLluw=
+			T2uhK6qLqeGcoGri4hDOavNmveEFcUlkCNFbyRRBuI4=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JOvHJTPnmXLJC6FwBU591I0CxtEIjmuQfxL4/k3O5h8=
+			ijLp5EahGksOC4ZW0aj4Mid5ttwR8FjKyoRfsmfXaqM=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8TOtXS/LLocheAxCUnoaLx1buUlb7o49Erysp625ZRE=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPVieqQhHbSdXPeWAVXWJmmRQHNBc44+FlFDWkgOysA=
+			pjwgKFx4ycwgKoA2jPwyXHJrttNDB5Ea/YEqtcm+FP8=
+			</data>
+		</dict>
+		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8TOtXS/LLocheAxCUnoaLx1buUlb7o49Erysp625ZRE=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EwGZ4a029g3tNcQzD9wObQq5ZHw4kBFhK4T1815AVDo=
+			7O0S9lhxLkWXFoCiTZZxIkxj80OQMwJzlpD9PybL7Mc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
