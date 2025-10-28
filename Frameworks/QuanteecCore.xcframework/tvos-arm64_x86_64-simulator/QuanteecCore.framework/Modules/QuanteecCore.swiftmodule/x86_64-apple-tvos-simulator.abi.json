@@ -19731,77 +19731,70 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1394,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1494,
+      "offset": 1496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 1666,
+      "offset": 1668,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 1844,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2107,
+      "offset": 2109,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2423,
+      "offset": 2425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2609,
+      "offset": 2611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2876,
+      "offset": 2878,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3077,
+      "offset": 3079,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3258,
+      "offset": 3260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "Array",
-      "offset": 3553,
+      "offset": 3555,
       "length": 2,
       "value": "[]"
     },
