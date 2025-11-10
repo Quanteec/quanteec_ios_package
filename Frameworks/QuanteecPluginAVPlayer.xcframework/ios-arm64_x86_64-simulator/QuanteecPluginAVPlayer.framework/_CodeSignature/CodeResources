@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1iuYjcfMI/AZ8Y+e2SQdruWOg04=
+		Tc+TM9k0J6Klogj2RKtpDTVJjQU=
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ke+pEttcudgRkv31rYVob2cZ5wU=
+		z963hE95WrXGsR4fA3ZUluG6Ogk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2uhK6qLqeGcoGri4hDOavNmveEFcUlkCNFbyRRBuI4=
+			TZutWS5751RgqnP3IW2uAPfUm5VFwqUZjZH1LLn3yzs=
 			</data>
 		</dict>
 		<key>Modules/QuanteecPluginAVPlayer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7O0S9lhxLkWXFoCiTZZxIkxj80OQMwJzlpD9PybL7Mc=
+			18N674zZnLX23fEGMZHGC2NNdvR0OTxuQE+zr39mZsY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
