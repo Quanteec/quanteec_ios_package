@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.dummy.datachannel_wrapper</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>UUID</key>
+    <string>07756517-FC6F-331C-B759-A1889414D24D
+1EBC53A0-FFF8-3C3E-8687-C0C36DBA6EBF</string>
+</dict>
+</plist>
