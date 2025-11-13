@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/datachannel_wrapper.framework/Info.plist</key>
-		<data>
-		/WGzEg+PK32GDpatDioH1w2ZUN0=
-		</data>
-		<key>Frameworks/datachannel_wrapper.framework/_CodeSignature/CodeResources</key>
-		<data>
-		vGcG43MEitYtvoog39jvefVMjIk=
-		</data>
-		<key>Frameworks/datachannel_wrapper.framework/datachannel_wrapper</key>
-		<data>
-		AncgJV+miAGoqbhFVOTB0BKeetg=
-		</data>
 		<key>Headers/GCDWebServer.h</key>
 		<data>
 		zqJgX+zmdqyXROB6Lrs4umAvidk=
@@ -103,27 +91,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/datachannel_wrapper.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ThFmjq6+VTs3aQp6vRY+vkLKj3SOHgI0KEZbittwx7I=
-			</data>
-		</dict>
-		<key>Frameworks/datachannel_wrapper.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wf0JrQpz6ni758/GcQQGeEtnyWSOJJnhJB6DkHgc4ss=
-			</data>
-		</dict>
-		<key>Frameworks/datachannel_wrapper.framework/datachannel_wrapper</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Hh9NqBaXGl6iD6EL53T4DutmPPC6TlKpibmvW1QWWAY=
-			</data>
-		</dict>
 		<key>Headers/GCDWebServer.h</key>
 		<dict>
 			<key>hash2</key>
