@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     './datachannel_wrapper.xcframework/tvos-arm64/datachannel_wrapper.framework/datachannel_wrapper'
-relocations:     []
-...
