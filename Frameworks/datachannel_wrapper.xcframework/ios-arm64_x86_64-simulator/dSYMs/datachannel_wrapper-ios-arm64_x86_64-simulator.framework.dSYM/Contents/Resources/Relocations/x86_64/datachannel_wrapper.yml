@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     './datachannel_wrapper.xcframework/ios-arm64_x86_64-simulator/datachannel_wrapper.framework/datachannel_wrapper'
+relocations:     []
+...

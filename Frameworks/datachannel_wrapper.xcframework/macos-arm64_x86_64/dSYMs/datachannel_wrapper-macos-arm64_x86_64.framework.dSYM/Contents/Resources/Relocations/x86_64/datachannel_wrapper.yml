@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     './datachannel_wrapper.xcframework/macos-arm64_x86_64/datachannel_wrapper.framework/datachannel_wrapper'
+relocations:     []
+...
