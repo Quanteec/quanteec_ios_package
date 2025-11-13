@@ -1,0 +1,56 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/attilasuto/Library/Developer/Xcode/DerivedData/QuanteecPluginAVPlayer-hlhqvzdxrffesjfbeqrfdqdqudju/Build/Intermediates.noindex/ArchiveIntermediates/QuanteecPluginAVPlayer/InstallationBuildProductsLocation/Library/Frameworks/QuanteecPluginAVPlayer.framework/QuanteecPluginAVPlayer'
+relocations:
+  - { offset: 0x584CD, size: 0x8, addend: 0x0, symName: _QuanteecPluginAVPlayerVersionString, symObjAddr: 0x0, symBinAddr: 0x4550, symSize: 0x0 }
+  - { offset: 0x58504, size: 0x8, addend: 0x0, symName: _QuanteecPluginAVPlayerVersionNumber, symObjAddr: 0x48, symBinAddr: 0x4598, symSize: 0x0 }
+  - { offset: 0x58692, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSH04hashB0SivgTW', symObjAddr: 0x1230, symBinAddr: 0x25D0, symSize: 0x40 }
+  - { offset: 0x58710, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x1270, symBinAddr: 0x2610, symSize: 0x30 }
+  - { offset: 0x5878E, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSH08_rawHashB04seedS2i_tFTW', symObjAddr: 0x12A0, symBinAddr: 0x2640, symSize: 0x60 }
+  - { offset: 0x5880C, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToE1C01_E5CTypeQzyFTW', symObjAddr: 0x1300, symBinAddr: 0x26A0, symSize: 0x10 }
+  - { offset: 0x58889, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x1310, symBinAddr: 0x26B0, symSize: 0x70 }
+  - { offset: 0x58937, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x1380, symBinAddr: 0x2720, symSize: 0x70 }
+  - { offset: 0x589E5, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW', symObjAddr: 0x13F0, symBinAddr: 0x2790, symSize: 0x40 }
+  - { offset: 0x58A64, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x1430, symBinAddr: 0x27D0, symSize: 0x70 }
+  - { offset: 0x58B26, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW', symObjAddr: 0x1500, symBinAddr: 0x28A0, symSize: 0x80 }
+  - { offset: 0x58E9E, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CfETo', symObjAddr: 0x1E0, symBinAddr: 0x1590, symSize: 0x70 }
+  - { offset: 0x5903E, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C23getPrebufferingDurationSdyF', symObjAddr: 0xCD0, symBinAddr: 0x2070, symSize: 0x210 }
+  - { offset: 0x59264, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C10getLatencySdyF', symObjAddr: 0xEE0, symBinAddr: 0x2280, symSize: 0x330 }
+  - { offset: 0x5951D, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C0A4Core24AnalyticsManagerProtocolAadEP23getPrebufferingDurationSdyFTW', symObjAddr: 0x1210, symBinAddr: 0x25B0, symSize: 0x10 }
+  - { offset: 0x59539, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C0A4Core24AnalyticsManagerProtocolAadEP10getLatencySdyFTW', symObjAddr: 0x1220, symBinAddr: 0x25C0, symSize: 0x10 }
+  - { offset: 0x59607, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo7NSValueC_Tg5', symObjAddr: 0x1580, symBinAddr: 0x2920, symSize: 0x1E0 }
+  - { offset: 0x596A4, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CMa', symObjAddr: 0x1A00, symBinAddr: 0x2DA0, symSize: 0x20 }
+  - { offset: 0x596B8, size: 0x8, addend: 0x0, symName: '_$sSo7NSValueCMa', symObjAddr: 0x1D20, symBinAddr: 0x30C0, symSize: 0x40 }
+  - { offset: 0x596CC, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1FB0, symBinAddr: 0x3350, symSize: 0x40 }
+  - { offset: 0x596E0, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaMa', symObjAddr: 0x2020, symBinAddr: 0x33C0, symSize: 0x30 }
+  - { offset: 0x596F4, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x2050, symBinAddr: 0x33F0, symSize: 0x30 }
+  - { offset: 0x59708, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x2080, symBinAddr: 0x3420, symSize: 0x30 }
+  - { offset: 0x5971C, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSHSCSQWb', symObjAddr: 0x20B0, symBinAddr: 0x3450, symSize: 0x30 }
+  - { offset: 0x597D0, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C6playerACSo0C0C_tcfC', symObjAddr: 0x0, symBinAddr: 0x13B0, symSize: 0x40 }
+  - { offset: 0x597FA, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C6playerACSo0C0C_tcfc', symObjAddr: 0x40, symBinAddr: 0x13F0, symSize: 0x30 }
+  - { offset: 0x59815, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CfD', symObjAddr: 0x70, symBinAddr: 0x1420, symSize: 0x150 }
+  - { offset: 0x5984D, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CfDTo', symObjAddr: 0x1C0, symBinAddr: 0x1570, symSize: 0x20 }
+  - { offset: 0x59868, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtFTo', symObjAddr: 0x260, symBinAddr: 0x1600, symSize: 0x150 }
+  - { offset: 0x59A42, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C13handleNewItem33_262A5639DB990A6954BC7FEE3874E651LLyySo10AVURLAssetCF', symObjAddr: 0x3B0, symBinAddr: 0x1750, symSize: 0x450 }
+  - { offset: 0x59BE2, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C15handleBuffering33_262A5639DB990A6954BC7FEE3874E651LLyyFTo', symObjAddr: 0x800, symBinAddr: 0x1BA0, symSize: 0x30 }
+  - { offset: 0x59C0F, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C7cleanupyyF', symObjAddr: 0x830, symBinAddr: 0x1BD0, symSize: 0x90 }
+  - { offset: 0x59C4C, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C19setMaxUploadPercent5valueySd_tF', symObjAddr: 0xA50, symBinAddr: 0x1DF0, symSize: 0x40 }
+  - { offset: 0x59C7D, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C20getEnergySavedInCO2gSdyF', symObjAddr: 0xA90, symBinAddr: 0x1E30, symSize: 0x20 }
+  - { offset: 0x59CA2, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C21getEnergySavedInLightSdyF', symObjAddr: 0xAB0, symBinAddr: 0x1E50, symSize: 0x20 }
+  - { offset: 0x59CC7, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C23getEnergySavedInWatercLSdyF', symObjAddr: 0xAD0, symBinAddr: 0x1E70, symSize: 0x20 }
+  - { offset: 0x59CEC, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C18getEnergySavedInWhSdyF', symObjAddr: 0xAF0, symBinAddr: 0x1E90, symSize: 0x20 }
+  - { offset: 0x59D11, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C26getEnergySavedReceivedInWhSdyF', symObjAddr: 0xB10, symBinAddr: 0x1EB0, symSize: 0x20 }
+  - { offset: 0x59D36, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C22getEnergySavedSentInWhSdyF', symObjAddr: 0xB30, symBinAddr: 0x1ED0, symSize: 0x20 }
+  - { offset: 0x59D5B, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C13getGreenScoreSdyF', symObjAddr: 0xB50, symBinAddr: 0x1EF0, symSize: 0x20 }
+  - { offset: 0x59D80, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C10getDataCDNs5Int64VyF', symObjAddr: 0xB70, symBinAddr: 0x1F10, symSize: 0x20 }
+  - { offset: 0x59DA5, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C11getDataPeers5Int64VyF', symObjAddr: 0xB90, symBinAddr: 0x1F30, symSize: 0x20 }
+  - { offset: 0x59DCA, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C11getDataSents5Int64VyF', symObjAddr: 0xBB0, symBinAddr: 0x1F50, symSize: 0x20 }
+  - { offset: 0x59DEF, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C13getP2PPercentSdyF', symObjAddr: 0xBD0, symBinAddr: 0x1F70, symSize: 0x20 }
+  - { offset: 0x59E15, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CACycfC', symObjAddr: 0xC50, symBinAddr: 0x1FF0, symSize: 0x20 }
+  - { offset: 0x59E29, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CACycfc', symObjAddr: 0xC70, symBinAddr: 0x2010, symSize: 0x30 }
+  - { offset: 0x59E82, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0CACycfcTo', symObjAddr: 0xCA0, symBinAddr: 0x2040, symSize: 0x30 }
+  - { offset: 0x59FE2, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSYSCSY03rawB0xSg03RawB0Qz_tcfCTW', symObjAddr: 0x14A0, symBinAddr: 0x2840, symSize: 0x40 }
+  - { offset: 0x5A00C, size: 0x8, addend: 0x0, symName: '_$sSo19NSKeyValueChangeKeyaSYSCSY03rawB003RawB0QzvgTW', symObjAddr: 0x14E0, symBinAddr: 0x2880, symSize: 0x20 }
+  - { offset: 0x5A061, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C6playerACSo0C0C_tcfcTf4gn_n', symObjAddr: 0x1760, symBinAddr: 0x2B00, symSize: 0x2A0 }
+  - { offset: 0x5A0EA, size: 0x8, addend: 0x0, symName: '_$s22QuanteecPluginAVPlayer0aB0C12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtFTf4nnddn_n', symObjAddr: 0x1A20, symBinAddr: 0x2DC0, symSize: 0x300 }
+...

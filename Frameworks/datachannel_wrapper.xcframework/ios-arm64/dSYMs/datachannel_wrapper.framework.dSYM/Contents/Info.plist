@@ -2,11 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleIdentifier</key>
-    <string>com.dummy.datachannel_wrapper</string>
-    <key>CFBundleVersion</key>
-    <string>1.0</string>
-    <key>UUID</key>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>English</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.dummy.datachannel_wrapper.dSYM</string>
+  <key>CFBundlePackageType</key>
+  <string>dSYM</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>DwarfUUIDs</key>
+  <array>
     <string>184DBCA0-DAE8-376A-B2BB-58A63772EC29</string>
+  </array>
 </dict>
 </plist>
