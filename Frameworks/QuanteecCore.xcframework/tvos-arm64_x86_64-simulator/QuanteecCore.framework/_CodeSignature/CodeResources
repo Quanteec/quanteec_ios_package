@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		SuZFhOjykH+gCekB5AD14vPLZLc=
+		H/B+OKwFWziXue5XIb5HvRfF4q4=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		bHsiSQyHo0y8lG7LaSJDvunEWXQ=
+		4jvLeX+sv2tv9bGVCCX5MngOHX4=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		bHsiSQyHo0y8lG7LaSJDvunEWXQ=
+		4jvLeX+sv2tv9bGVCCX5MngOHX4=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		L+mJGwpQpxkw2Un9ebYvjheZ/Ws=
+		VA7GPSLQiY3EpekJ7Nv2O37AmRA=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		SuZFhOjykH+gCekB5AD14vPLZLc=
+		H/B+OKwFWziXue5XIb5HvRfF4q4=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		N5vWso6Dd8yf5/HrQM3LnLR+gMI=
+		Mn3ka/p3xL3VZO5314BI2mvw7m8=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		N5vWso6Dd8yf5/HrQM3LnLR+gMI=
+		Mn3ka/p3xL3VZO5314BI2mvw7m8=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		gziiKKjbyMycVCOnPBZ6JZMlgvo=
+		R7DaNPsOicwmMo3aZzNtvW/AI8s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -158,14 +158,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJOPTe+Rwfp3MFMhuFBD7DTpZTJt5htZD8o3XIRoOuY=
+			aV1yACjG2RdUVZTJ64zzXTV/cxTsroWUHlr4qkUaFFg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ymt+RDHvO3ecsEif67NXSHSZHnuD57NfeeMp53ve8Q=
+			SpvnzSqF+Cq3bS4aTUjnFwYEGDK9/dyOQZ8OCy1E/pY=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -179,28 +179,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ymt+RDHvO3ecsEif67NXSHSZHnuD57NfeeMp53ve8Q=
+			SpvnzSqF+Cq3bS4aTUjnFwYEGDK9/dyOQZ8OCy1E/pY=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWB9PSsndkJ0S7T5HwY80SDJTa8GQcTku39yLIksikQ=
+			Uvovyy3894QnFTa2WDRG0FC5cq3tMUmTosQaB3T3o0E=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJOPTe+Rwfp3MFMhuFBD7DTpZTJt5htZD8o3XIRoOuY=
+			aV1yACjG2RdUVZTJ64zzXTV/cxTsroWUHlr4qkUaFFg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVFkWXJfK1Ff2tAmsjgY72eke+YYsfKmrX3Zvn4SopQ=
+			YqrE1a+8rFfJmbBYCFlhlD0K3V0tR5tj87axJVD/214=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -214,14 +214,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVFkWXJfK1Ff2tAmsjgY72eke+YYsfKmrX3Zvn4SopQ=
+			YqrE1a+8rFfJmbBYCFlhlD0K3V0tR5tj87axJVD/214=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JKVBp8A5viWFrl4qag5uMsRoVe5800wMNT200UvGrGk=
+			IW3CheWxnXc9OqtqqF3QUd/2rS4GXWGBVDFYW4t5VIg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

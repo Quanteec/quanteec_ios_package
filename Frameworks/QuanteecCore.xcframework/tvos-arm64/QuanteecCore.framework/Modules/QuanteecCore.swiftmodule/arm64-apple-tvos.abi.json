@@ -8390,6 +8390,117 @@
             "moduleName": "QuanteecCore"
           },
           {
+            "kind": "Var",
+            "name": "bufferingController",
+            "printedName": "bufferingController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuanteecCore.QLogModule.Type) -> QuanteecCore.QLogModule",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QLogModule",
+                    "printedName": "QuanteecCore.QLogModule",
+                    "usr": "s:12QuanteecCore10QLogModuleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuanteecCore.QLogModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QLogModule",
+                        "printedName": "QuanteecCore.QLogModule",
+                        "usr": "s:12QuanteecCore10QLogModuleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12QuanteecCore10QLogModuleO19bufferingControlleryA2CmF",
+            "mangledName": "$s12QuanteecCore10QLogModuleO19bufferingControlleryA2CmF",
+            "moduleName": "QuanteecCore"
+          },
+          {
+            "kind": "Var",
+            "name": "decisionController",
+            "printedName": "decisionController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuanteecCore.QLogModule.Type) -> QuanteecCore.QLogModule",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QLogModule",
+                    "printedName": "QuanteecCore.QLogModule",
+                    "usr": "s:12QuanteecCore10QLogModuleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuanteecCore.QLogModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QLogModule",
+                        "printedName": "QuanteecCore.QLogModule",
+                        "usr": "s:12QuanteecCore10QLogModuleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12QuanteecCore10QLogModuleO18decisionControlleryA2CmF",
+            "mangledName": "$s12QuanteecCore10QLogModuleO18decisionControlleryA2CmF",
+            "moduleName": "QuanteecCore"
+          },
+          {
+            "kind": "Var",
+            "name": "p2pLoader",
+            "printedName": "p2pLoader",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuanteecCore.QLogModule.Type) -> QuanteecCore.QLogModule",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QLogModule",
+                    "printedName": "QuanteecCore.QLogModule",
+                    "usr": "s:12QuanteecCore10QLogModuleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuanteecCore.QLogModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QLogModule",
+                        "printedName": "QuanteecCore.QLogModule",
+                        "usr": "s:12QuanteecCore10QLogModuleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12QuanteecCore10QLogModuleO9p2pLoaderyA2CmF",
+            "mangledName": "$s12QuanteecCore10QLogModuleO9p2pLoaderyA2CmF",
+            "moduleName": "QuanteecCore"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -17818,6 +17929,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "QuanteecCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18260,6 +18378,28 @@
             ],
             "usr": "s:7SwiftUI18_FormatSpecifiableP",
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic64BitStorage",
+                    "printedName": "Synchronization._Atomic64BitStorage",
+                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -18790,6 +18930,28 @@
             ],
             "usr": "s:7SwiftUI10AnimatableP",
             "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic64BitStorage",
+                    "printedName": "Synchronization._Atomic64BitStorage",
+                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       }
@@ -20009,6 +20171,27 @@
       "value": "\"GCDWebServer\""
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 21,
+      "value": "\"BufferingController\""
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1081,
+      "length": 20,
+      "value": "\"DecisionController\""
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 11,
+      "value": "\"P2PLoader\""
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/Dependecies\/GoSwiftyM3U8\/Models\/Tags\/Tags.swift",
       "kind": "StringLiteral",
       "offset": 2246,
@@ -20431,63 +20614,63 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 441,
+      "offset": 454,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 3329,
+      "offset": 3342,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 3417,
+      "offset": 3430,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 3585,
+      "offset": 3598,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 3662,
+      "offset": 3675,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 3751,
+      "offset": 3764,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3837,
       "length": 32,
       "value": "\"pendingFileAvailabilityBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 3948,
+      "offset": 3961,
       "length": 27,
       "value": "\"pendingFileRequestBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 4086,
       "length": 33,
       "value": "\"pendingUploadFileRequestBarrier\""
     }
