@@ -20588,14 +20588,14 @@
       "kind": "IntegerLiteral",
       "offset": 588,
       "length": 1,
-      "value": "3"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/PluginActivator.swift",
       "kind": "IntegerLiteral",
       "offset": 631,
       "length": 1,
-      "value": "2"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/P2PMessages\/FileRequestEndMessage.swift",
