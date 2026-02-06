@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/QuanteecCore-Swift.h</key>
 		<data>
-		tAvqtmrU6pPhWVp/nk9mnq+gi58=
+		b0qo5jFfP0LUKr5kLsAG/C4Ax40=
 		</data>
 		<key>Headers/QuanteecCore.h</key>
 		<data>
@@ -42,47 +42,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QqB6FcO7MFPXc/fc03MXWXP3cIg=
+		VbgU2yF7EOOIpeVyhuMCYO9NpHA=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		syn9SrZ22HI//jOVgIJN8iPSssQ=
+		KDEJ7u5OgQCwR9OUQEho2zvr0ww=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xSTEjy/JS2wB2aY7Wbu40N/4Dok=
+		j16XqJFUb2zon/rq+fzKWU6USi8=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		df4ah0Co/14nxXl1/tb4sNOG4Cg=
+		ZAc12OzBHKMZIRetM2ZX087MR7M=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xSTEjy/JS2wB2aY7Wbu40N/4Dok=
+		j16XqJFUb2zon/rq+fzKWU6USi8=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J/j45+S/wkcjP+gIifsfuuX4W8E=
+		8GA9BZ2ldR/n64QvbHud7Qjb3jE=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		syn9SrZ22HI//jOVgIJN8iPSssQ=
+		KDEJ7u5OgQCwR9OUQEho2zvr0ww=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/CIHxJWNZ7p4OC1AOzAe5x976wU=
+		KhSOWt91hP/lSDoPt4Cvy0C8ZlA=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6M0BKQ5Gf5YaY5kfkCGvkGpT94M=
+		JruVojQ9yIvI+/BYsJgMRPeAlSA=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/CIHxJWNZ7p4OC1AOzAe5x976wU=
+		KhSOWt91hP/lSDoPt4Cvy0C8ZlA=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7qSjOrLOS+WROm4rGtQcDrGMG/8=
+		disA6hq1nZ0UiLoc+aeA03vhEB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4eMfiDrOh5MPwwNgYQynfAZixptcCK23mxxnXYs51BE=
+			3V3KR9RghIK148gzK749MksvAqKdb9UYj51d67yQwwc=
 			</data>
 		</dict>
 		<key>Headers/QuanteecCore.h</key>
@@ -158,70 +158,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Oj42ZqgZ+j2Rz3KYHow/Ccyh1BaYmPIp7ZNa66RHBc=
+			uJ5ag7uuU/8CF+rRIYnywgjcozhRvecVTZr4zcn4v1s=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HhwTEKc9twGRlUF3TX6YceF2vcHaKxA1db18Pe6zMZg=
+			Ka4aaNeUmCfiqmN44jgabbDDqf2gkEx0Zs3OW6CgOEA=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y25J+8rOtqDQQGCg7QdpwQXBMTmUb34SWBJ3ssCZvYc=
+			yMwy+rZYMjav6Sbi2wbBeQ2Pj84OwCb8Af+Yy136H7A=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HhwTEKc9twGRlUF3TX6YceF2vcHaKxA1db18Pe6zMZg=
+			Ka4aaNeUmCfiqmN44jgabbDDqf2gkEx0Zs3OW6CgOEA=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMRYreo/YcJyHTSOwPPtabXQq657AC8HEjX7vREj6N8=
+			ql0e08bVhSMaVqifU4LO2ocwMUARzbaj5zu1qUfe1lg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Oj42ZqgZ+j2Rz3KYHow/Ccyh1BaYmPIp7ZNa66RHBc=
+			uJ5ag7uuU/8CF+rRIYnywgjcozhRvecVTZr4zcn4v1s=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mLIvW+I3BzhgSUsZrA3J/K1raSusbat3mC8+NETaeI=
+			Duczbbcd6mO9nQ33UXjI3zUs6X1zraobeJW2Jirw7Sg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijjKUwNCuiQB9652OYM4WysE2YgivcwIHzMZsbnzOkk=
+			cpyfcArijeLlg3GbfYmPz/yNETudPSc2UOm3JHb75AU=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mLIvW+I3BzhgSUsZrA3J/K1raSusbat3mC8+NETaeI=
+			Duczbbcd6mO9nQ33UXjI3zUs6X1zraobeJW2Jirw7Sg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bx1h1PvICh2CFiuWi3jy+JzRdIRhYkPKLk4EEcrL3iI=
+			dTlVw+8R8tz3uPxMi8Y3aC08NPuN63MEs6pGQVhOef4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

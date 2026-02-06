@@ -8501,6 +8501,43 @@
             "moduleName": "QuanteecCore"
           },
           {
+            "kind": "Var",
+            "name": "remoteVariables",
+            "printedName": "remoteVariables",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QuanteecCore.QLogModule.Type) -> QuanteecCore.QLogModule",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QLogModule",
+                    "printedName": "QuanteecCore.QLogModule",
+                    "usr": "s:12QuanteecCore10QLogModuleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QuanteecCore.QLogModule.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "QLogModule",
+                        "printedName": "QuanteecCore.QLogModule",
+                        "usr": "s:12QuanteecCore10QLogModuleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12QuanteecCore10QLogModuleO15remoteVariablesyA2CmF",
+            "mangledName": "$s12QuanteecCore10QLogModuleO15remoteVariablesyA2CmF",
+            "moduleName": "QuanteecCore"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -17016,6 +17053,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuanteecCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PeerType",
         "printedName": "PeerType",
@@ -17758,6 +17805,16 @@
             "usr": "s:SY",
             "mangledName": "$sSY"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QuanteecCore",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -20192,6 +20249,13 @@
       "value": "\"P2PLoader\""
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogModule.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 17,
+      "value": "\"RemoteVariables\""
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/Dependecies\/GoSwiftyM3U8\/Models\/Tags\/Tags.swift",
       "kind": "StringLiteral",
       "offset": 2246,
@@ -20423,6 +20487,48 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "FloatLiteral",
+      "offset": 168,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "FloatLiteral",
+      "offset": 376,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "FloatLiteral",
+      "offset": 668,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "FloatLiteral",
+      "offset": 1008,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/DataSentReceived.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
@@ -20502,9 +20608,16 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerList.swift",
       "kind": "Array",
-      "offset": 1541,
+      "offset": 1535,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerList.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
+      "length": 14,
+      "value": "\"peersBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/P2PMessages\/AbonnementRequestMessage.swift",
