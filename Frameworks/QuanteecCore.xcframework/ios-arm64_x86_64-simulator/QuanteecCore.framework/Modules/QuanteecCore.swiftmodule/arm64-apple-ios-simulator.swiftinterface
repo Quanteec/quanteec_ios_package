@@ -97,7 +97,6 @@ public enum DeviceType {
   public var analyticsVideoID: Swift.String
   public var activated: Swift.Bool
   public var p2pActivated: Swift.Bool
-  public var currentLevel: Swift.Int?
   public var maxPreloadedSegments: Swift.Int
   public var maxUploadPercent: Swift.Double
   public var tracker: Swift.String
@@ -105,7 +104,6 @@ public enum DeviceType {
   public var ignoreTokenInUrls: Swift.String
   public var sendingActivated: Swift.Bool
   public var cellularActivated: Swift.Bool
-  public var logLevel: Swift.Int
   public var lowLatency: Swift.Bool
   public var p2pConfiguration: Swift.String?
   public var collections: [Swift.String]
@@ -192,6 +190,11 @@ public protocol MultilineTag {
 @_hasMissingDesignatedInitializers public class QLoggerConfig {
   public static let shared: QuanteecCore.QLoggerConfig
   public var activeLogLevel: QuanteecCore.QLogLevel
+  public var showAnalytics: Swift.Bool {
+    get
+    set
+  }
+  public var onShowAnalyticsChange: ((Swift.Bool) -> Swift.Void)?
   @objc deinit
 }
 public enum QLogLevel : Swift.Int, Swift.Comparable {

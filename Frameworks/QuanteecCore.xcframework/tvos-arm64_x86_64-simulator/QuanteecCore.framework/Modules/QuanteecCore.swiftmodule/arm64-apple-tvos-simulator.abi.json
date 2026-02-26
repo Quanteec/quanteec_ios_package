@@ -2918,117 +2918,6 @@
           },
           {
             "kind": "Var",
-            "name": "currentLevel",
-            "printedName": "currentLevel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12QuanteecCore0A6ConfigC12currentLevelSiSgvp",
-            "mangledName": "$s12QuanteecCore0A6ConfigC12currentLevelSiSgvp",
-            "moduleName": "QuanteecCore",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC12currentLevelSiSgvg",
-                "mangledName": "$s12QuanteecCore0A6ConfigC12currentLevelSiSgvg",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC12currentLevelSiSgvs",
-                "mangledName": "$s12QuanteecCore0A6ConfigC12currentLevelSiSgvs",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC12currentLevelSiSgvM",
-                "mangledName": "$s12QuanteecCore0A6ConfigC12currentLevelSiSgvM",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "maxPreloadedSegments",
             "printedName": "maxPreloadedSegments",
             "children": [
@@ -3630,93 +3519,6 @@
                 "declKind": "Accessor",
                 "usr": "s:12QuanteecCore0A6ConfigC17cellularActivatedSbvM",
                 "mangledName": "$s12QuanteecCore0A6ConfigC17cellularActivatedSbvM",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "logLevel",
-            "printedName": "logLevel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12QuanteecCore0A6ConfigC8logLevelSivp",
-            "mangledName": "$s12QuanteecCore0A6ConfigC8logLevelSivp",
-            "moduleName": "QuanteecCore",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC8logLevelSivg",
-                "mangledName": "$s12QuanteecCore0A6ConfigC8logLevelSivg",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC8logLevelSivs",
-                "mangledName": "$s12QuanteecCore0A6ConfigC8logLevelSivs",
-                "moduleName": "QuanteecCore",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12QuanteecCore0A6ConfigC8logLevelSivM",
-                "mangledName": "$s12QuanteecCore0A6ConfigC8logLevelSivM",
                 "moduleName": "QuanteecCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6288,6 +6090,240 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "showAnalytics",
+            "printedName": "showAnalytics",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12QuanteecCore13QLoggerConfigC13showAnalyticsSbvp",
+            "mangledName": "$s12QuanteecCore13QLoggerConfigC13showAnalyticsSbvp",
+            "moduleName": "QuanteecCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC13showAnalyticsSbvg",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC13showAnalyticsSbvg",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC13showAnalyticsSbvs",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC13showAnalyticsSbvs",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC13showAnalyticsSbvM",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC13showAnalyticsSbvM",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onShowAnalyticsChange",
+            "printedName": "onShowAnalyticsChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvp",
+            "mangledName": "$s12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvp",
+            "moduleName": "QuanteecCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvg",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvg",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvs",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvs",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvM",
+                "mangledName": "$s12QuanteecCore13QLoggerConfigC21onShowAnalyticsChangeySbcSgvM",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -7014,6 +7050,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuanteecCore"
       },
       {
         "kind": "TypeDecl",
@@ -17859,6 +17902,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QuanteecCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19950,70 +20003,63 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1496,
+      "offset": 1341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 1668,
+      "offset": 1513,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1844,
+      "offset": 1689,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2109,
+      "offset": 1954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2425,
+      "offset": 2270,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2611,
+      "offset": 2456,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2878,
+      "offset": 2723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3079,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3260,
+      "offset": 2907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "Array",
-      "offset": 3555,
+      "offset": 3202,
       "length": 2,
       "value": "[]"
     },
@@ -20053,6 +20099,13 @@
       "value": "\"attributesKeys\""
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLoggerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 335,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
@@ -20086,6 +20139,34 @@
       "offset": 202,
       "length": 5,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/AnalyticsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 693,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/AnalyticsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/AnalyticsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 3,
+      "value": "220"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/AnalyticsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 724,
+      "length": 3,
+      "value": "180"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Logs\/QLogModule.swift",
@@ -20408,6 +20489,13 @@
       "offset": 500,
       "length": 1,
       "value": "5"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/QuanteecDecision.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1786,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/DownloadController.swift",
