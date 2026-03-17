@@ -11,3 +11,5 @@
 #import <QuanteecCore/GCDWebServerDataResponse.h>
 #import <QuanteecCore/GCDWebServerErrorResponse.h>
 #import <QuanteecCore/GCDWebServerHTTPStatusCodes.h>
+#import <QuanteecCore/GCDWebServerStreamedResponse.h>
+

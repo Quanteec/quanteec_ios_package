@@ -88,6 +88,10 @@ public enum DeviceType {
   public static func currentDeviceType() -> QuanteecCore.DeviceType
   @objc deinit
 }
+public struct CDNUrl : Swift.Equatable {
+  public init(name: Swift.String, url: Swift.String, useFirst: Swift.Bool = false)
+  public static func == (a: QuanteecCore.CDNUrl, b: QuanteecCore.CDNUrl) -> Swift.Bool
+}
 @_hasMissingDesignatedInitializers public class QuanteecConfig {
   public static var shared: QuanteecCore.QuanteecConfig {
     get
@@ -107,6 +111,9 @@ public enum DeviceType {
   public var lowLatency: Swift.Bool
   public var p2pConfiguration: Swift.String?
   public var collections: [Swift.String]
+  public var cdnUrls: [QuanteecCore.CDNUrl]
+  public var cdnFactorBandwidth: Swift.Double
+  public var cdnFactorTtfb: Swift.Double
   public static func configure(quanteecKey: Swift.String)
   @objc deinit
 }
@@ -197,7 +204,7 @@ public protocol MultilineTag {
   public var onShowAnalyticsChange: ((Swift.Bool) -> Swift.Void)?
   @objc deinit
 }
-public enum QLogLevel : Swift.Int, Swift.Comparable {
+public enum QLogLevel : Swift.String, Swift.Codable, Swift.Comparable {
   case none
   case error
   case info
@@ -205,10 +212,10 @@ public enum QLogLevel : Swift.Int, Swift.Comparable {
   case trace
   public static func < (lhs: QuanteecCore.QLogLevel, rhs: QuanteecCore.QLogLevel) -> Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
+  public init?(rawValue: Swift.String)
   #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -250,6 +257,7 @@ public protocol AnalyticsManagerProtocol : AnyObject {
 public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
   case videoStatus
   case analytics
+  case logs
   case proxy
   case candidate
   case webRTCClient
@@ -272,6 +280,7 @@ public enum QLogModule : Swift.String, Swift.CaseIterable, Swift.Hashable {
   case decisionController
   case p2pLoader
   case remoteVariables
+  case cdnSelector
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -652,6 +661,16 @@ public enum SegmentType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct QLogEntry : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class QLogEntries {
+  public static let shared: QuanteecCore.QLogEntries
+  public func add(_ logEntry: QuanteecCore.QLogEntry)
+  public func getAll() -> [QuanteecCore.QLogEntry]
+  @objc deinit
 }
 extension QuanteecCore.NetworkType : Swift.Equatable {}
 extension QuanteecCore.NetworkType : Swift.Hashable {}
