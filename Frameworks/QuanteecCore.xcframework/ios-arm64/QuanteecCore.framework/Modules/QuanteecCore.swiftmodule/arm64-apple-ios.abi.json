@@ -20622,49 +20622,63 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "Array",
-      "offset": 788,
+      "offset": 801,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "Array",
-      "offset": 820,
+      "offset": 833,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 854,
+      "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "Array",
-      "offset": 930,
+      "offset": 943,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "Array",
-      "offset": 1004,
+      "offset": 1017,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1147,
+      "offset": 1160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5802,
+      "offset": 1211,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
+      "kind": "Array",
+      "offset": 1295,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6357,
       "length": 5,
       "value": "false"
     },
