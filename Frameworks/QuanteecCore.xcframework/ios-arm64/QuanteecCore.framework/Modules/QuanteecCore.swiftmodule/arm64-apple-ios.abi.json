@@ -20764,7 +20764,7 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/SignalingClient.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 3046,
       "length": 2,
       "value": "\"\""
     },
@@ -21499,14 +21499,14 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/DownloadController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3441,
+      "offset": 3534,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/DownloadController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10724,
+      "offset": 10817,
       "length": 5,
       "value": "false"
     },
@@ -21541,35 +21541,42 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 310,
+      "offset": 315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 347,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 437,
       "length": 38,
       "value": "\"New tracker list set: \""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
       "kind": "StringLiteral",
-      "offset": 433,
+      "offset": 474,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 490,
+      "offset": 531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebSocketProvider\/NativeWebSocket.swift",
       "kind": "Array",
-      "offset": 341,
+      "offset": 382,
       "length": 2,
       "value": "[]"
     },

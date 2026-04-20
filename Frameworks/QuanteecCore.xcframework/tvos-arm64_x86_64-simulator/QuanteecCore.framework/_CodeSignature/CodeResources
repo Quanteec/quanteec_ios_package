@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		JlTapC0TQNvIUCJFaqb/7138Xhg=
+		W+UhpPuMjqYk99xWnZfIROq8nrk=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		84lUZouQcZzMSSrREJ9v4M2sM1Q=
+		HHvCbOcbyFExdJDnmVct0Gw4qEg=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		JlTapC0TQNvIUCJFaqb/7138Xhg=
+		W+UhpPuMjqYk99xWnZfIROq8nrk=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		r3mdpvvj4cbn/cTjGNNzpcBYj4o=
+		kN76f/3cRxlmVaa8b6EGfAXjzWM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccyBtgJ9dqdbG3m8IZKLOVRyBdHEZOXOVtbqr0jF9q4=
+			M6lBMfgAvp2dVSUKaKJfYzjtTZY4pANG7gY34X2joq4=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -197,14 +197,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qI3Fj0cpwo1QApYZVzyoZXJJG5k46bzSy6iEhv7oZ10=
+			9Z/00xuvU+4qq0wyjHrZ5mX6cN4JBCTX7+H4GOFr2N4=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccyBtgJ9dqdbG3m8IZKLOVRyBdHEZOXOVtbqr0jF9q4=
+			M6lBMfgAvp2dVSUKaKJfYzjtTZY4pANG7gY34X2joq4=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FbUlmVdrYHbP9f4htk8m0+uAZV1lVW6VCuAM0qKgJC8=
+			8y9w8/yeV7n3SA1spTJCRofDPz/6oWLh6mNdDtC+Hb8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
