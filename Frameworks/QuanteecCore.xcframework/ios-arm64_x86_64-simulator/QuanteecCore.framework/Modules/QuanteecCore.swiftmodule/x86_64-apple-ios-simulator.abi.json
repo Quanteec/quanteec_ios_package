@@ -20902,6 +20902,13 @@
       "value": "\"mp4|ts|m4s|aac\""
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1081,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/P2PMessages\/FileAvailabilityRequestMessage.swift",
       "kind": "StringLiteral",
       "offset": 448,
