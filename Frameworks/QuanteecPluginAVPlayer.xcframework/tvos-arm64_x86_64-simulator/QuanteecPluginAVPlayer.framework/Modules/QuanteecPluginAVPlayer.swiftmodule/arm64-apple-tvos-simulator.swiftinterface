@@ -16,6 +16,7 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   #endif
+  public func setContentKeySessionDelegate(_ delegate: any AVFoundation.AVContentKeySessionDelegate, queue: Dispatch.DispatchQueue = .main)
   public func cleanup()
   public func getResolutions() -> [Swift.String]
   public func activateP2P(activated: Swift.Bool)

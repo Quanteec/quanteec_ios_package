@@ -155,6 +155,40 @@
           },
           {
             "kind": "Function",
+            "name": "setContentKeySessionDelegate",
+            "printedName": "setContentKeySessionDelegate(_:queue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVContentKeySessionDelegate",
+                "printedName": "any AVFoundation.AVContentKeySessionDelegate",
+                "usr": "c:objc(pl)AVContentKeySessionDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22QuanteecPluginAVPlayer0aB0C28setContentKeySessionDelegate_5queueySo09AVContentfgH0_p_So012OS_dispatch_I0CtF",
+            "mangledName": "$s22QuanteecPluginAVPlayer0aB0C28setContentKeySessionDelegate_5queueySo09AVContentfgH0_p_So012OS_dispatch_I0CtF",
+            "moduleName": "QuanteecPluginAVPlayer",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "cleanup",
             "printedName": "cleanup()",
             "children": [
