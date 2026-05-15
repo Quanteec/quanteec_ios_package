@@ -20813,7 +20813,7 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNSelector.swift",
       "kind": "FloatLiteral",
-      "offset": 5656,
+      "offset": 6815,
       "length": 3,
       "value": "1.0"
     },
@@ -20841,35 +20841,49 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 246,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 10,
+      "value": "50000000"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
       "kind": "IntegerLiteral",
-      "offset": 326,
+      "offset": 526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
       "kind": "Array",
-      "offset": 515,
+      "offset": 715,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
       "kind": "Array",
-      "offset": 558,
+      "offset": 758,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/CDN\/CDNStat.swift",
       "kind": "Array",
-      "offset": 602,
+      "offset": 802,
       "length": 2,
       "value": "[]"
     },
@@ -22155,6 +22169,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/HTTPLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/PluginActivator.swift",
       "kind": "IntegerLiteral",
       "offset": 507,
@@ -22219,8 +22240,15 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
+      "kind": "Array",
+      "offset": 845,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 892,
       "length": 12,
       "value": "\"video\/mp2t\""
     },
