@@ -20203,13 +20203,6 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9788,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
       "offset": 9637,
       "length": 1,
@@ -20218,280 +20211,259 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 9917,
+      "offset": 9872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 10037,
+      "offset": 9992,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 10167,
+      "offset": 10122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 10398,
+      "offset": 10353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10770,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 10587,
+      "offset": 10542,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "Dictionary",
-      "offset": 11087,
+      "offset": 10997,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11269,
+      "offset": 11179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11366,
+      "offset": 11276,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11466,
+      "offset": 11376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11562,
+      "offset": 11472,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11644,
+      "offset": 11554,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11721,
+      "offset": 11631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11836,
+      "offset": 11746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 11937,
+      "offset": 11847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12035,
+      "offset": 11945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12134,
+      "offset": 12044,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12228,
+      "offset": 12138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12319,
+      "offset": 12229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12556,
+      "offset": 12466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12656,
+      "offset": 12566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12766,
+      "offset": 12676,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12877,
+      "offset": 12787,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 12983,
+      "offset": 12893,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 13169,
+      "offset": 13079,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 13254,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13466,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13336,
+      "offset": 13164,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 13594,
+      "offset": 13246,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 13694,
+      "offset": 13459,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 13791,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14084,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13866,
+      "offset": 13559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 14203,
+      "offset": 13656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13731,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 14354,
+      "offset": 14174,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 14439,
+      "offset": 14259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 15175,
+      "offset": 14995,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 15223,
+      "offset": 15043,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 15317,
+      "offset": 15137,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Analytics\/PlayerMetrics.swift",
       "kind": "Array",
-      "offset": 15364,
+      "offset": 15184,
       "length": 2,
       "value": "[]"
     },
@@ -22080,14 +22052,14 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerList.swift",
       "kind": "Array",
-      "offset": 1535,
+      "offset": 1840,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerList.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
+      "offset": 1921,
       "length": 14,
       "value": "\"peersBarrier\""
     },
