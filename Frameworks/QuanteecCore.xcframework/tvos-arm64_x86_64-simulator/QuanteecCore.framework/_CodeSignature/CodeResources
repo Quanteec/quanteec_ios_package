@@ -50,43 +50,43 @@
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		3XGrb1ZSasFoyeRMOP7XPbD+yUo=
+		ViQqVhCiDK+YDR8YW45pcwrwi4g=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		x1J3QrOJasW054kQNW2EZw75HSg=
+		2d1t3LpGs/M6yuBPoWusNPNqpEs=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		Ajfyot5cUsBJmyQKwMAggdLLWok=
+		eZ74EEsrayJ8cGPn4+VMl444E24=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		x1J3QrOJasW054kQNW2EZw75HSg=
+		2d1t3LpGs/M6yuBPoWusNPNqpEs=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		cHtQQO8ioXZl3JbuxNF2r+1k3Bw=
+		NKgT1TN9rKbC2S4KHODHBjtBwIo=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		3XGrb1ZSasFoyeRMOP7XPbD+yUo=
+		ViQqVhCiDK+YDR8YW45pcwrwi4g=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		3Q7oSs57UebSb9jNiCtKITYFALc=
+		tSfvo88UaGW+6rvG0SzfwmF6zp0=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		HNh6LIP+OU8RDQrlHgin+Wed3B4=
+		UKPfzl0Gq4umnjPd+08NWCNtZVg=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		3Q7oSs57UebSb9jNiCtKITYFALc=
+		tSfvo88UaGW+6rvG0SzfwmF6zp0=
 		</data>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		DGrO8kIf/DpJMDd3PEbqIDhixpw=
+		EFB9jx+1oQkD4uQWEpWzR6/cgWQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -169,70 +169,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ttd4H1melqnqzacnuB0DVs7qNpBzfVCDpnIn6J8cwFw=
+			moN5p20ccW/79qMUGxEW+M4W2IeA4wDAl7+92+LfYLo=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbAbZT0KhAcv2g13Db/GnbBCcn8MM4MqQBcjYwibitY=
+			z3+Sd9pZ14ym9aGRbrqUiyWL0ud6fV5vbV/uPuyLT1w=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ildKk6OQdSGR3fwSB6U+OPsA3ghAS3GgOX/6w50LUOk=
+			W5qeir6mfmQ/5t3lsVX4HBQtHeDNX4sJbS4O/Eb+ecg=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbAbZT0KhAcv2g13Db/GnbBCcn8MM4MqQBcjYwibitY=
+			z3+Sd9pZ14ym9aGRbrqUiyWL0ud6fV5vbV/uPuyLT1w=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIzlToFMByg+M120s/Q3yK+PldrUhNNr/uQsCkuJp0Y=
+			CWAduhqfoyChOp1MDUFRY1RWFeC8MJbN15sR0Zq05/Y=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ttd4H1melqnqzacnuB0DVs7qNpBzfVCDpnIn6J8cwFw=
+			moN5p20ccW/79qMUGxEW+M4W2IeA4wDAl7+92+LfYLo=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5PjtkKi6cz4t0UGiZ6TP5THegXDi1R/87E96HflJ7ts=
+			vj7WvWZHNNv36rl6DJlUgOxO5exyNyHiRto0wOH9Ht8=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fynyezHTks7VZ3JkDxmSX5sLmklv1kTS8xm262nYRUM=
+			x/kaxWadMXf/CL+YgfJl4zPwsty0IRlKw65aNPKT08k=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5PjtkKi6cz4t0UGiZ6TP5THegXDi1R/87E96HflJ7ts=
+			vj7WvWZHNNv36rl6DJlUgOxO5exyNyHiRto0wOH9Ht8=
 			</data>
 		</dict>
 		<key>Modules/QuanteecCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sVO6Fr8eJ10b+MXIvQEaU4Wf19TFcIU+lIJikv1GPg=
+			LJz2fn6+QKnlr34pBaA0rGCgmFf0uOBSnnTy/N4fT2E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -87,6 +87,7 @@ public enum DeviceType {
 }
 @_hasMissingDesignatedInitializers public class DeviceTypeChecker {
   public static func currentDeviceType() -> QuanteecCore.DeviceType
+  public static func userAgent() -> Swift.String
   @objc deinit
 }
 public struct CDNUrl : Swift.Equatable {
