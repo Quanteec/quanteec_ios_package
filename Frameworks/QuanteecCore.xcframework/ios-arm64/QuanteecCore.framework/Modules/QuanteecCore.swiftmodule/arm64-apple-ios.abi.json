@@ -3794,6 +3794,93 @@
           },
           {
             "kind": "Var",
+            "name": "enableStallRecovery",
+            "printedName": "enableStallRecovery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12QuanteecCore0A6ConfigC19enableStallRecoverySbvp",
+            "mangledName": "$s12QuanteecCore0A6ConfigC19enableStallRecoverySbvp",
+            "moduleName": "QuanteecCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore0A6ConfigC19enableStallRecoverySbvg",
+                "mangledName": "$s12QuanteecCore0A6ConfigC19enableStallRecoverySbvg",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore0A6ConfigC19enableStallRecoverySbvs",
+                "mangledName": "$s12QuanteecCore0A6ConfigC19enableStallRecoverySbvs",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12QuanteecCore0A6ConfigC19enableStallRecoverySbvM",
+                "mangledName": "$s12QuanteecCore0A6ConfigC19enableStallRecoverySbvM",
+                "moduleName": "QuanteecCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "p2pConfiguration",
             "printedName": "p2pConfiguration",
             "children": [
@@ -20919,6 +21006,34 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
+      "kind": "FloatLiteral",
+      "offset": 7638,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7700,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
+      "kind": "FloatLiteral",
+      "offset": 8134,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8641,
+      "length": 4,
+      "value": "1024"
+    },
+    {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/P2PMessages\/FileAvailabilityRequestMessage.swift",
       "kind": "StringLiteral",
       "offset": 448,
@@ -21018,29 +21133,36 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "Array",
-      "offset": 3202,
+      "offset": 3656,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "Array",
-      "offset": 3279,
+      "offset": 3733,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3390,
+      "offset": 3844,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/QuanteecConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3821,
+      "offset": 4275,
       "length": 6,
       "value": "-100.0"
     },
@@ -22264,15 +22386,29 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1640,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 1604,
+      "offset": 1674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/SegmentStreamBridge.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2567,
       "length": 12,
       "value": "\"video\/mp2t\""
     },
@@ -22286,70 +22422,77 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1634,
+      "offset": 1443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Dictionary",
-      "offset": 1673,
+      "offset": 2163,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 4267,
+      "offset": 4585,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 4355,
+      "offset": 4673,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 4523,
+      "offset": 4841,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 4600,
+      "offset": 4918,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 4689,
+      "offset": 5007,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 4762,
+      "offset": 5080,
       "length": 32,
       "value": "\"pendingFileAvailabilityBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 4886,
+      "offset": 5204,
       "length": 27,
       "value": "\"pendingFileRequestBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 5011,
+      "offset": 5329,
       "length": 33,
       "value": "\"pendingUploadFileRequestBarrier\""
     }

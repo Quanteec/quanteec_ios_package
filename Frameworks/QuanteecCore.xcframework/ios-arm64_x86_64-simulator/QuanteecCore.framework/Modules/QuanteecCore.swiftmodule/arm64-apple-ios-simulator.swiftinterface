@@ -111,6 +111,7 @@ public struct CDNUrl : Swift.Equatable {
   public var sendingActivated: Swift.Bool
   public var cellularActivated: Swift.Bool
   public var lowLatency: Swift.Bool
+  public var enableStallRecovery: Swift.Bool
   public var p2pConfiguration: Swift.String?
   public var collections: [Swift.String]
   public var cdnUrls: [QuanteecCore.CDNUrl]
