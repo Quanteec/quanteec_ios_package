@@ -21008,28 +21008,28 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
       "kind": "FloatLiteral",
-      "offset": 7638,
+      "offset": 7945,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 7700,
+      "offset": 8007,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
       "kind": "FloatLiteral",
-      "offset": 8134,
+      "offset": 8441,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Adapter\/HLSProxyServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8641,
+      "offset": 8948,
       "length": 4,
       "value": "1024"
     },
@@ -21763,8 +21763,15 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
+      "kind": "BooleanLiteral",
+      "offset": 997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/RemoteVariables.swift",
       "kind": "FloatLiteral",
-      "offset": 1008,
+      "offset": 1043,
       "length": 3,
       "value": "6.0"
     },
