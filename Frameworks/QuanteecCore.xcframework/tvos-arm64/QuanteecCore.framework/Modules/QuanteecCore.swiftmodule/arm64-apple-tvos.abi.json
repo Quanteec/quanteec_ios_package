@@ -20798,7 +20798,7 @@
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/Services\/WebRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6357,
+      "offset": 6676,
       "length": 5,
       "value": "false"
     },
@@ -22449,57 +22449,71 @@
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4897,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4950,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 4585,
+      "offset": 4999,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "FloatLiteral",
-      "offset": 4673,
+      "offset": 5087,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 4841,
+      "offset": 5255,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 4918,
+      "offset": 5332,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "Array",
-      "offset": 5007,
+      "offset": 5421,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 5080,
+      "offset": 5494,
       "length": 32,
       "value": "\"pendingFileAvailabilityBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 5204,
+      "offset": 5618,
       "length": 27,
       "value": "\"pendingFileRequestBarrier\""
     },
     {
       "filePath": "\/Users\/attilasuto\/Work\/iOS\/Quanteec\/quanteec_iOS_plugin\/core\/QuanteecCore\/Core\/PeerMessagesController.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5743,
       "length": 33,
       "value": "\"pendingUploadFileRequestBarrier\""
     }
